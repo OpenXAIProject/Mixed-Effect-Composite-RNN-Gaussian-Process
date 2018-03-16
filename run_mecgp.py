@@ -18,7 +18,7 @@ disease_name = sys.argv[1]
 
 def main():
     #NOTE load multi-task data with right format
-    path = '/home/user/OneDrive/research/mecgp/sample_data/'+disease_name+'/data/'
+    path = '/YOURPATH/mecgp/sample_data/'+disease_name+'/data/'
     train_fname = disease_name+'_prediction_1_2002_2013_train.txt'
     test_fname = disease_name+'_prediction_1_2002_2013_test.txt'
     val_fname = disease_name+'_prediction_1_2002_2013_val.txt'
