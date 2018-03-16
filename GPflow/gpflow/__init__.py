@@ -1,4 +1,5 @@
 # Copyright 2016 alexggmatthews, James Hensman
+# Copyright 2018 KAIST under XAI Project supported by Ministry of Science and ICT, Korea
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
