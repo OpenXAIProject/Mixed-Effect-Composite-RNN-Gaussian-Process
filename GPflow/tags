@@ -1,0 +1,1304 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLSPHINXOPTS	doc/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source$/;"	m
+Add	gpflow/ekernels.py	/^class Add(kernels.Add):$/;"	c
+Add	gpflow/kernels.py	/^class Add(Combination):$/;"	c
+AddModel	testing/test_autoflow.py	/^class AddModel(DumbModel):$/;"	c
+Additive	gpflow/mean_functions.py	/^class Additive(MeanFunction):$/;"	c
+ArcCosine	gpflow/kernels.py	/^class ArcCosine(Kern):$/;"	c
+AutoFlow	gpflow/param.py	/^class AutoFlow:$/;"	c
+BUILDDIR	doc/Makefile	/^BUILDDIR      = build$/;"	m
+BayesianGPLVM	gpflow/gplvm.py	/^class BayesianGPLVM(GPModel):$/;"	c
+Bernoulli	gpflow/likelihoods.py	/^class Bernoulli(Likelihood):$/;"	c
+Beta	gpflow/likelihoods.py	/^class Beta(Likelihood):$/;"	c
+Beta	gpflow/priors.py	/^class Beta(Prior):$/;"	c
+Bias	gpflow/kernels.py	/^class Bias(Constant):$/;"	c
+Combination	gpflow/kernels.py	/^class Combination(Kern):$/;"	c
+Constant	gpflow/kernels.py	/^class Constant(Static):$/;"	c
+Constant	gpflow/mean_functions.py	/^class Constant(MeanFunction):$/;"	c
+Coregion	gpflow/kernels.py	/^class Coregion(Kern):$/;"	c
+Cosine	gpflow/kernels.py	/^class Cosine(Stationary):$/;"	c
+DataHolder	gpflow/param.py	/^class DataHolder(Parentable):$/;"	c
+DiagMatrix	gpflow/transforms.py	/^class DiagMatrix(Transform):$/;"	c
+DiagsTest	testing/test_conditionals.py	/^class DiagsTest(GPflowTestCase):$/;"	c
+DiagsTest	testing/test_kldiv.py	/^class DiagsTest(GPflowTestCase):$/;"	c
+DumbModel	testing/test_autoflow.py	/^class DumbModel(gpflow.model.Model):$/;"	c
+Dummy	testing/test_model.py	/^    class Dummy(gpflow.model.Model):$/;"	c	class:TestModelSessionGraphArguments
+EqualityTest	testing/test_kldiv.py	/^class EqualityTest(GPflowTestCase):$/;"	c
+Exp	gpflow/transforms.py	/^class Exp(Transform):$/;"	c
+Exponential	gpflow/kernels.py	/^class Exponential(Stationary):$/;"	c
+Exponential	gpflow/likelihoods.py	/^class Exponential(Likelihood):$/;"	c
+F	testing/test_likelihoods.py	/^            F = tf.placeholder(float_type)$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+FITCvsVFE_test	testing/test_notebooks.py	/^    def FITCvsVFE_test(self):$/;"	m	class:TestNotebooks
+F_data	testing/test_likelihoods.py	/^            F_data = np.ones((num_points, num_classes))$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+FlatModel	testing/test_priors.py	/^        class FlatModel(gpflow.model.Model):$/;"	c	function:PriorModeTests.setUp
+Foo	testing/test_param.py	/^        class Foo(gpflow.model.Model):$/;"	c	function:TestParamList.test_in_model
+GPLVM	gpflow/gplvm.py	/^class GPLVM(GPR):$/;"	c
+GPMC	gpflow/gpmc.py	/^class GPMC(GPModel):$/;"	c
+GPModel	gpflow/model.py	/^class GPModel(Model):$/;"	c
+GPR	gpflow/gpr.py	/^class GPR(GPModel):$/;"	c
+GPRFITC	gpflow/sgpr.py	/^class GPRFITC(GPModel, SGPRUpperMixin):$/;"	c
+GPflowTestCase	testing/gpflow_testcase.py	/^class GPflowTestCase(tf.test.TestCase):$/;"	c
+Gamma	gpflow/likelihoods.py	/^class Gamma(Likelihood):$/;"	c
+Gamma	gpflow/priors.py	/^class Gamma(Prior):$/;"	c
+Gaussian	gpflow/likelihoods.py	/^class Gaussian(Likelihood):$/;"	c
+Gaussian	gpflow/priors.py	/^class Gaussian(Prior):$/;"	c
+I18NSPHINXOPTS	doc/Makefile	/^I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source$/;"	m
+Identity	gpflow/transforms.py	/^class Identity(Transform):$/;"	c
+IncrementModel	testing/test_autoflow.py	/^class IncrementModel(DumbModel):$/;"	c
+IndexManager	gpflow/minibatch.py	/^class IndexManager(object):$/;"	c
+K	gpflow/kernels.py	/^    def K(self, X, X2=None):$/;"	m	class:Coregion
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Add
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:ArcCosine
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Constant
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Cosine
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Exponential
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Linear
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Matern12
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Matern32
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Matern52
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:PeriodicKernel
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Polynomial
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:Prod
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:RBF
+K	gpflow/kernels.py	/^    def K(self, X, X2=None, presliced=False):$/;"	m	class:White
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X):$/;"	m	class:Coregion
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X):$/;"	m	class:Static
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:Add
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:ArcCosine
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:Linear
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:PeriodicKernel
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:Polynomial
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:Prod
+Kdiag	gpflow/kernels.py	/^    def Kdiag(self, X, presliced=False):$/;"	m	class:Stationary
+Kern	gpflow/kernels.py	/^class Kern(Parameterized):$/;"	c
+KeyboardRaiser	testing/test_model.py	/^class KeyboardRaiser:$/;"	c
+KzxKxz	gpflow/kernels.py	/^        def KzxKxz(x):$/;"	f	function:Kern.eKzxKxz
+Laplace	gpflow/priors.py	/^class Laplace(Prior):$/;"	c
+Likelihood	gpflow/likelihoods.py	/^class Likelihood(Parameterized):$/;"	c
+Linear	gpflow/ekernels.py	/^class Linear(kernels.Linear):$/;"	c
+Linear	gpflow/kernels.py	/^class Linear(Kern):$/;"	c
+Linear	gpflow/mean_functions.py	/^class Linear(MeanFunction):$/;"	c
+Linear_RBF_eKxzKzx	gpflow/ekernels.py	/^    def Linear_RBF_eKxzKzx(self, Ka, Kb, Z, Xmu, Xcov):$/;"	m	class:Add
+Log1pe	gpflow/transforms.py	/^class Log1pe(Transform):$/;"	c
+LogNormal	gpflow/priors.py	/^class LogNormal(Prior):$/;"	c
+Logistic	gpflow/transforms.py	/^class Logistic(Transform):$/;"	c
+LowerTriangular	gpflow/transforms.py	/^class LowerTriangular(Transform):$/;"	c
+Matern12	gpflow/kernels.py	/^class Matern12(Stationary):$/;"	c
+Matern32	gpflow/kernels.py	/^class Matern32(Stationary):$/;"	c
+Matern52	gpflow/kernels.py	/^class Matern52(Stationary):$/;"	c
+MeanFunction	gpflow/mean_functions.py	/^class MeanFunction(Parameterized):$/;"	c
+MinibatchData	gpflow/minibatch.py	/^class MinibatchData(DataHolder):$/;"	c
+MockRobustMax	testing/test_likelihoods.py	/^        class MockRobustMax(gpflow.likelihoods.RobustMax):$/;"	c	function:TestRobustMaxMulticlass.testPredictDensity
+Model	gpflow/model.py	/^class Model(Parameterized):$/;"	c
+MultiClass	gpflow/likelihoods.py	/^class MultiClass(Likelihood):$/;"	c
+MutableNamedTuple	gpflow/_settings.py	/^class MutableNamedTuple(OrderedDict):$/;"	c
+NameScoped	gpflow/scoping.py	/^class NameScoped(object):$/;"	c
+NamingTests	testing/test_param.py	/^class NamingTests(GPflowTestCase):$/;"	c
+NoArgsModel	testing/test_autoflow.py	/^class NoArgsModel(DumbModel):$/;"	c
+NoReplacementSampling	gpflow/minibatch.py	/^class NoReplacementSampling(IndexManager):$/;"	c
+ObjectiveWrapper	gpflow/model.py	/^class ObjectiveWrapper(object):$/;"	c
+OneDTest	testing/test_kldiv.py	/^class OneDTest(GPflowTestCase):$/;"	c
+Ordinal	gpflow/likelihoods.py	/^class Ordinal(Likelihood):$/;"	c
+PAPER	doc/Makefile	/^PAPER         =$/;"	m
+PAPEROPT_a4	doc/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m
+PAPEROPT_letter	doc/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m
+PCA_reduce	gpflow/gplvm.py	/^def PCA_reduce(X, Q):$/;"	f
+Param	gpflow/param.py	/^class Param(Parentable):$/;"	c
+ParamList	gpflow/param.py	/^class ParamList(Parameterized):$/;"	c
+ParamTestsDeeper	testing/test_param.py	/^class ParamTestsDeeper(GPflowTestCase):$/;"	c
+ParamTestsScalar	testing/test_param.py	/^class ParamTestsScalar(GPflowTestCase):$/;"	c
+ParamTestsWider	testing/test_param.py	/^class ParamTestsWider(GPflowTestCase):$/;"	c
+Parameterized	gpflow/param.py	/^class Parameterized(Parentable):$/;"	c
+Parentable	gpflow/param.py	/^class Parentable(object):$/;"	c
+PeriodicKernel	gpflow/kernels.py	/^class PeriodicKernel(Kern):$/;"	c
+Poisson	gpflow/likelihoods.py	/^class Poisson(Likelihood):$/;"	c
+Polynomial	gpflow/kernels.py	/^class Polynomial(Linear):$/;"	c
+Prior	gpflow/priors.py	/^class Prior(Parameterized):$/;"	c
+PriorModeTests	testing/test_priors.py	/^class PriorModeTests(GPflowTestCase):$/;"	c
+Prod	gpflow/ekernels.py	/^class Prod(kernels.Prod):$/;"	c
+Prod	gpflow/kernels.py	/^class Prod(Combination):$/;"	c
+Product	gpflow/mean_functions.py	/^class Product(MeanFunction):$/;"	c
+Quadratic	testing/test_hmc.py	/^        class Quadratic(gpflow.model.Model):$/;"	c	function:SampleModelTest.setUp
+Quadratic	testing/test_model.py	/^        class Quadratic(gpflow.model.Model):$/;"	c	function:TestOptimize.setUp
+RBF	gpflow/ekernels.py	/^class RBF(kernels.RBF):$/;"	c
+RBF	gpflow/kernels.py	/^class RBF(Stationary):$/;"	c
+ReplacementSampling	gpflow/minibatch.py	/^class ReplacementSampling(IndexManager):$/;"	c
+Rescale	gpflow/transforms.py	/^class Rescale(Transform):$/;"	c
+RobustMax	gpflow/likelihoods.py	/^class RobustMax(object):$/;"	c
+SGPMC	gpflow/sgpmc.py	/^class SGPMC(GPModel):$/;"	c
+SGPR	gpflow/sgpr.py	/^class SGPR(GPModel, SGPRUpperMixin):$/;"	c
+SGPRUpperMixin	gpflow/sgpr.py	/^class SGPRUpperMixin(object):$/;"	c
+SGPR_notes_test	testing/test_notebooks.py	/^    def SGPR_notes_test(self):$/;"	m	class:TestNotebooks
+SPHINXBUILD	doc/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXOPTS	doc/Makefile	/^SPHINXOPTS    =$/;"	m
+SVGP	gpflow/svgp.py	/^class SVGP(GPModel):$/;"	c
+SampleGaussianTest	testing/test_hmc.py	/^class SampleGaussianTest(GPflowTestCase):$/;"	c
+SampleModelTest	testing/test_hmc.py	/^class SampleModelTest(GPflowTestCase):$/;"	c
+SamplesDictTest	testing/test_hmc.py	/^class SamplesDictTest(GPflowTestCase):$/;"	c
+SequenceIndices	gpflow/minibatch.py	/^class SequenceIndices(IndexManager):$/;"	c
+SettingsContextManager	gpflow/_settings.py	/^class SettingsContextManager(object):$/;"	c
+SettingsManager	gpflow/_settings.py	/^class SettingsManager(object):$/;"	c
+SingleParamInvariantTest	testing/test_param.py	/^class SingleParamInvariantTest(GPflowTestCase):$/;"	c
+SingleParamterizedInvariantTest	testing/test_param.py	/^class SingleParamterizedInvariantTest(GPflowTestCase):$/;"	c
+Static	gpflow/kernels.py	/^class Static(Kern):$/;"	c
+Stationary	gpflow/kernels.py	/^class Stationary(Kern):$/;"	c
+StudentT	gpflow/likelihoods.py	/^class StudentT(Likelihood):$/;"	c
+SwitchedLikelihood	gpflow/likelihoods.py	/^class SwitchedLikelihood(Likelihood):$/;"	c
+SwitchedMeanFunction	gpflow/mean_functions.py	/^class SwitchedMeanFunction(MeanFunction):$/;"	c
+TestARDActiveProd	testing/test_kerns.py	/^class TestARDActiveProd(GPflowTestCase):$/;"	c
+TestARDInit	testing/test_kerns.py	/^class TestARDInit(GPflowTestCase):$/;"	c
+TestActiveDims	testing/test_pickle.py	/^class TestActiveDims(GPflowTestCase):$/;"	c
+TestAdd	testing/test_autoflow.py	/^class TestAdd(GPflowTestCase):$/;"	c
+TestAdd	testing/test_kerns.py	/^class TestAdd(GPflowTestCase):$/;"	c
+TestAddCrossCalcs	testing/test_ekerns.py	/^class TestAddCrossCalcs(GPflowTestCase):$/;"	c
+TestArcCosine	testing/test_kerns.py	/^class TestArcCosine(GPflowTestCase):$/;"	c
+TestAutoFlowSessionGraphArguments	testing/test_autoflow.py	/^class TestAutoFlowSessionGraphArguments(GPflowTestCase):$/;"	c
+TestBayesianGPLVM	testing/test_gplvm.py	/^class TestBayesianGPLVM(GPflowTestCase):$/;"	c
+TestBug277Regression	testing/test_mean_functions.py	/^class TestBug277Regression(GPflowTestCase):$/;"	c
+TestConfigParsing	testing/test_config.py	/^class TestConfigParsing(GPflowTestCase):$/;"	c
+TestCoregion	testing/test_kerns.py	/^class TestCoregion(GPflowTestCase):$/;"	c
+TestDataHolder	testing/test_autoflow.py	/^class TestDataHolder(GPflowTestCase):$/;"	c
+TestDataHolderIntegers	testing/test_data_object.py	/^class TestDataHolderIntegers(GPflowTestCase):$/;"	c
+TestDataHolderModels	testing/test_data_object.py	/^class TestDataHolderModels(GPflowTestCase):$/;"	c
+TestDataHolderSimple	testing/test_data_object.py	/^class TestDataHolderSimple(GPflowTestCase):$/;"	c
+TestDiagMatrixTransform	testing/test_transforms.py	/^class TestDiagMatrixTransform(GPflowTestCase):$/;"	c
+TestDictEmpty	testing/test_param.py	/^class TestDictEmpty(GPflowTestCase):$/;"	c
+TestDictSVGP	testing/test_param.py	/^class TestDictSVGP(GPflowTestCase):$/;"	c
+TestDictSimple	testing/test_param.py	/^class TestDictSimple(GPflowTestCase):$/;"	c
+TestEquivalence	testing/test_coregion.py	/^class TestEquivalence(GPflowTestCase):$/;"	c
+TestEquivalence	testing/test_method_equivalence.py	/^class TestEquivalence(GPflowTestCase):$/;"	c
+TestExpxKxzActiveDims	testing/test_ekerns.py	/^class TestExpxKxzActiveDims(GPflowTestCase):$/;"	c
+TestFixAndPredict	testing/test_autoflow.py	/^class TestFixAndPredict(GPflowTestCase):$/;"	c
+TestFixWithPrior	testing/test_param.py	/^class TestFixWithPrior(GPflowTestCase):$/;"	c
+TestFullCov	testing/test_predict.py	/^class TestFullCov(GPflowTestCase):$/;"	c
+TestFullCovGPMC	testing/test_predict.py	/^class TestFullCovGPMC(TestFullCov):$/;"	c
+TestFullCovGPRFITC	testing/test_predict.py	/^class TestFullCovGPRFITC(TestFullCov):$/;"	c
+TestFullCovSGPMC	testing/test_predict.py	/^class TestFullCovSGPMC(TestFullCov):$/;"	c
+TestFullCovSGPR	testing/test_predict.py	/^class TestFullCovSGPR(TestFullCov):$/;"	c
+TestFullCovSVGP1	testing/test_predict.py	/^class TestFullCovSVGP1(TestFullCov):$/;"	c
+TestFullCovSVGP2	testing/test_predict.py	/^class TestFullCovSVGP2(TestFullCov):$/;"	c
+TestFullCovSVGP3	testing/test_predict.py	/^class TestFullCovSVGP3(TestFullCov):$/;"	c
+TestFullCovSVGP4	testing/test_predict.py	/^class TestFullCovSVGP4(TestFullCov):$/;"	c
+TestFullCovVGP	testing/test_predict.py	/^class TestFullCovVGP(TestFullCov):$/;"	c
+TestGPLVM	testing/test_gplvm.py	/^class TestGPLVM(GPflowTestCase):$/;"	c
+TestGPmodel	testing/test_autoflow.py	/^class TestGPmodel(GPflowTestCase):$/;"	c
+TestGaussian	testing/test_predict.py	/^class TestGaussian(GPflowTestCase):$/;"	c
+TestKernDiags	testing/test_kerns.py	/^class TestKernDiags(GPflowTestCase):$/;"	c
+TestKernExpActiveDims	testing/test_ekerns.py	/^class TestKernExpActiveDims(GPflowTestCase):$/;"	c
+TestKernExpDelta	testing/test_ekerns.py	/^class TestKernExpDelta(GPflowTestCase):$/;"	c
+TestKernExpDiagXcov	testing/test_ekerns.py	/^class TestKernExpDiagXcov(GPflowTestCase):$/;"	c
+TestKernExpQuadrature	testing/test_ekerns.py	/^class TestKernExpQuadrature(GPflowTestCase):$/;"	c
+TestKernNaming	testing/test_kerns.py	/^class TestKernNaming(GPflowTestCase):$/;"	c
+TestKernNamingProduct	testing/test_kerns.py	/^class TestKernNamingProduct(GPflowTestCase):$/;"	c
+TestKernProd	testing/test_ekerns.py	/^class TestKernProd(GPflowTestCase):$/;"	c
+TestKernSymmetry	testing/test_kerns.py	/^class TestKernSymmetry(GPflowTestCase):$/;"	c
+TestKeyboardCatching	testing/test_model.py	/^class TestKeyboardCatching(GPflowTestCase):$/;"	c
+TestLikelihoodAutoflow	testing/test_model.py	/^class TestLikelihoodAutoflow(GPflowTestCase):$/;"	c
+TestLikelihoodChecks	testing/test_likelihoods.py	/^class TestLikelihoodChecks(GPflowTestCase):$/;"	c
+TestLowerTriTransform	testing/test_transforms.py	/^class TestLowerTriTransform(GPflowTestCase):$/;"	c
+TestMeanFuncs	testing/test_mean_functions.py	/^class TestMeanFuncs(GPflowTestCase):$/;"	c
+TestMethods	testing/test_methods.py	/^class TestMethods(GPflowTestCase):$/;"	c
+TestMinibatchData	testing/test_minibatch_data.py	/^class TestMinibatchData(GPflowTestCase):$/;"	c
+TestModelCompositionOperations	testing/test_mean_functions.py	/^class TestModelCompositionOperations(GPflowTestCase):$/;"	c
+TestModelSessionGraphArguments	testing/test_model.py	/^class TestModelSessionGraphArguments(GPflowTestCase):$/;"	c
+TestModelsWithMeanFuncs	testing/test_mean_functions.py	/^class TestModelsWithMeanFuncs(GPflowTestCase):$/;"	c
+TestMulticlassIndexFix	testing/test_likelihoods.py	/^class TestMulticlassIndexFix(GPflowTestCase):$/;"	c
+TestName	testing/test_model.py	/^class TestName(GPflowTestCase):$/;"	c
+TestNeedsRecompile	testing/test_model.py	/^class TestNeedsRecompile(GPflowTestCase):$/;"	c
+TestNoArgs	testing/test_autoflow.py	/^class TestNoArgs(GPflowTestCase):$/;"	c
+TestNoRecompileThroughNewModelInstance	testing/test_model.py	/^class TestNoRecompileThroughNewModelInstance(GPflowTestCase):$/;"	c
+TestNotebooks	testing/test_notebooks.py	/^class TestNotebooks(GPflowTestCase):$/;"	c
+TestOptimize	testing/test_model.py	/^class TestOptimize(GPflowTestCase):$/;"	c
+TestOverflow	testing/test_transforms.py	/^class TestOverflow(GPflowTestCase):$/;"	c
+TestParamList	testing/test_param.py	/^class TestParamList(GPflowTestCase):$/;"	c
+TestPeriodic	testing/test_kerns.py	/^class TestPeriodic(GPflowTestCase):$/;"	c
+TestPickleAndDict	testing/test_param.py	/^class TestPickleAndDict(GPflowTestCase):$/;"	c
+TestPickleEmpty	testing/test_pickle.py	/^class TestPickleEmpty(GPflowTestCase):$/;"	c
+TestPickleFix	testing/test_pickle.py	/^class TestPickleFix(GPflowTestCase):$/;"	c
+TestPickleGPR	testing/test_pickle.py	/^class TestPickleGPR(GPflowTestCase):$/;"	c
+TestPickleSVGP	testing/test_pickle.py	/^class TestPickleSVGP(GPflowTestCase):$/;"	c
+TestPickleSimple	testing/test_pickle.py	/^class TestPickleSimple(GPflowTestCase):$/;"	c
+TestPredictConditional	testing/test_likelihoods.py	/^class TestPredictConditional(GPflowTestCase):$/;"	c
+TestProd	testing/test_kerns.py	/^class TestProd(GPflowTestCase):$/;"	c
+TestProfiling	testing/test_profiling.py	/^class TestProfiling(GPflowTestCase):$/;"	c
+TestQuadrature	testing/test_likelihoods.py	/^class TestQuadrature(GPflowTestCase):$/;"	c
+TestRandomIndexManagers	testing/test_minibatch_data.py	/^class TestRandomIndexManagers(GPflowTestCase):$/;"	c
+TestRandomizeDefault	testing/test_param.py	/^class TestRandomizeDefault(GPflowTestCase):$/;"	c
+TestRandomizeFeedPriors	testing/test_param.py	/^class TestRandomizeFeedPriors(GPflowTestCase):$/;"	c
+TestRandomizeHierarchical	testing/test_param.py	/^class TestRandomizeHierarchical(GPflowTestCase):$/;"	c
+TestRandomizePrior	testing/test_param.py	/^class TestRandomizePrior(GPflowTestCase):$/;"	c
+TestRbf	testing/test_kerns.py	/^class TestRbf(GPflowTestCase):$/;"	c
+TestResetGraph	testing/test_autoflow.py	/^class TestResetGraph(GPflowTestCase):$/;"	c
+TestRobustMaxMulticlass	testing/test_likelihoods.py	/^class TestRobustMaxMulticlass(GPflowTestCase):$/;"	c
+TestSVGP	testing/test_autoflow.py	/^class TestSVGP(GPflowTestCase):$/;"	c
+TestSVGP	testing/test_methods.py	/^class TestSVGP(GPflowTestCase):$/;"	c
+TestScopes	testing/test_param.py	/^class TestScopes(GPflowTestCase):$/;"	c
+TestSequentialManager	testing/test_minibatch_data.py	/^class TestSequentialManager(GPflowTestCase):$/;"	c
+TestSessionConfiguration	testing/test_session.py	/^class TestSessionConfiguration(GPflowTestCase):$/;"	c
+TestSettingsManager	testing/test_config.py	/^class TestSettingsManager(GPflowTestCase):$/;"	c
+TestSetup	testing/test_likelihoods.py	/^class TestSetup(object):$/;"	c
+TestShareArgs	testing/test_autoflow.py	/^class TestShareArgs(GPflowTestCase):$/;"	c
+TestSlice	testing/test_kerns.py	/^class TestSlice(GPflowTestCase):$/;"	c
+TestSparseMCMC	testing/test_methods.py	/^class TestSparseMCMC(GPflowTestCase):$/;"	c
+TestStochasticGradients	testing/test_methods.py	/^class TestStochasticGradients(GPflowTestCase):$/;"	c
+TestSwitchedLikelihood	testing/test_likelihoods.py	/^class TestSwitchedLikelihood(GPflowTestCase):$/;"	c
+TestSwitchedMeanFunction	testing/test_mean_functions.py	/^class TestSwitchedMeanFunction(GPflowTestCase):$/;"	c
+TestTransforms	testing/test_pickle.py	/^class TestTransforms(GPflowTestCase):$/;"	c
+TestUpperBound	testing/test_method_equivalence.py	/^class TestUpperBound(GPflowTestCase):$/;"	c
+TestVecToTri	testing/test_triang.py	/^class TestVecToTri(GPflowTestCase):$/;"	c
+TestWhite	testing/test_kerns.py	/^class TestWhite(GPflowTestCase):$/;"	c
+TracerSession	gpflow/session.py	/^class TracerSession(tf.Session):$/;"	c
+Transform	gpflow/transforms.py	/^class Transform(object):$/;"	c
+TransformTests	testing/test_transforms.py	/^class TransformTests(GPflowTestCase):$/;"	c
+TriDiagonalBlockRep	testing/test_ekerns.py	/^class TriDiagonalBlockRep(object):$/;"	c
+TwoLayerReLUMLP	gpflow/mean_functions.py	/^class TwoLayerReLUMLP(MeanFunction):$/;"	c
+TwoLayerSigmoidMLP	gpflow/mean_functions.py	/^class TwoLayerSigmoidMLP(MeanFunction):$/;"	c
+Uniform	gpflow/priors.py	/^class Uniform(Prior):$/;"	c
+VERSIONFILE	setup.py	/^VERSIONFILE = "gpflow\/_version.py"$/;"	v
+VGP	gpflow/vgp.py	/^class VGP(GPModel):$/;"	c
+VGPTest	testing/test_method_equivalence.py	/^class VGPTest(GPflowTestCase):$/;"	c
+VGP_opper_archambeau	gpflow/vgp.py	/^class VGP_opper_archambeau(GPModel):$/;"	c
+VariationalMultivariateTest	testing/test_variational.py	/^class VariationalMultivariateTest(GPflowTestCase):$/;"	c
+VariationalUnivariateTest	testing/test_variational.py	/^class VariationalUnivariateTest(GPflowTestCase):$/;"	c
+White	gpflow/kernels.py	/^class White(Static):$/;"	c
+WhitenTest	testing/test_conditionals.py	/^class WhitenTest(GPflowTestCase):$/;"	c
+WhitenTestGaussian	testing/test_conditionals.py	/^class WhitenTestGaussian(WhitenTest):$/;"	c
+WhitenedTest	testing/test_kldiv.py	/^class WhitenedTest(GPflowTestCase):$/;"	c
+X	doc/source/notebooks/compare_variational.py	/^X = np.atleast_2d( rng.rand(nPoints)*10 ).T$/;"	v
+Y	doc/source/notebooks/compare_variational.py	/^Y = np.sin(X) + 0.9 * np.cos(X*1.6) + np.random.randn(*X.shape)* 0.8$/;"	v
+Y_data	testing/test_likelihoods.py	/^            Y_data = rng.randint(num_classes, size=(num_points, 1))$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+Zero	gpflow/mean_functions.py	/^class Zero(MeanFunction):$/;"	c
+_J	gpflow/kernels.py	/^    def _J(self, theta):$/;"	m	class:ArcCosine
+__add__	gpflow/kernels.py	/^    def __add__(self, other):$/;"	m	class:Kern	file:
+__add__	gpflow/mean_functions.py	/^    def __add__(self, other):$/;"	m	class:MeanFunction	file:
+__call__	doc/source/notebooks/FITCvsVFE.py	/^    def __call__(self, info):$/;"	m	class:cb	file:
+__call__	gpflow/likelihoods.py	/^    def __call__(self, F):$/;"	m	class:RobustMax	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:Additive	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:Constant	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:Linear	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:MeanFunction	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:Product	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:SwitchedMeanFunction	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:TwoLayerReLUMLP	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:TwoLayerSigmoidMLP	file:
+__call__	gpflow/mean_functions.py	/^    def __call__(self, X):$/;"	m	class:Zero	file:
+__call__	gpflow/model.py	/^    def __call__(self, x):$/;"	m	class:ObjectiveWrapper	file:
+__call__	gpflow/param.py	/^    def __call__(self, tf_method):$/;"	m	class:AutoFlow	file:
+__call__	gpflow/scoping.py	/^    def __call__(self, f):$/;"	m	class:NameScoped	file:
+__call__	testing/test_model.py	/^    def __call__(self, *a, **kw):$/;"	m	class:KeyboardRaiser	file:
+__enter__	gpflow/_settings.py	/^    def __enter__(self):$/;"	m	class:SettingsContextManager	file:
+__exit__	gpflow/_settings.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:SettingsContextManager	file:
+__getattr__	gpflow/_settings.py	/^    def __getattr__(self, name):$/;"	m	class:MutableNamedTuple	file:
+__getattr__	gpflow/_settings.py	/^    def __getattr__(self, name):$/;"	m	class:SettingsManager	file:
+__getattribute__	gpflow/param.py	/^    def __getattribute__(self, key):$/;"	m	class:Parameterized	file:
+__getitem__	gpflow/param.py	/^    def __getitem__(self, key):$/;"	m	class:ParamList	file:
+__getstate__	gpflow/model.py	/^    def __getstate__(self):$/;"	m	class:Model	file:
+__getstate__	gpflow/param.py	/^    def __getstate__(self):$/;"	m	class:DataHolder	file:
+__getstate__	gpflow/param.py	/^    def __getstate__(self):$/;"	m	class:Param	file:
+__getstate__	gpflow/param.py	/^    def __getstate__(self):$/;"	m	class:Parameterized	file:
+__getstate__	gpflow/param.py	/^    def __getstate__(self):$/;"	m	class:Parentable	file:
+__getstate__	gpflow/transforms.py	/^    def __getstate__(self):$/;"	m	class:Transform	file:
+__init__	doc/source/notebooks/FITCvsVFE.py	/^    def __init__(self, model, xtest, ytest, holdout_inverval=100 ):$/;"	m	class:cb
+__init__	gpflow/_settings.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:MutableNamedTuple
+__init__	gpflow/_settings.py	/^    def __init__(self, manager, tmp_settings):$/;"	m	class:SettingsContextManager
+__init__	gpflow/_settings.py	/^    def __init__(self, set):$/;"	m	class:SettingsManager
+__init__	gpflow/ekernels.py	/^    def __init__(self, kern_list):$/;"	m	class:Add
+__init__	gpflow/gplvm.py	/^    def __init__(self, X_mean, X_var, Y, kern, M, Z=None, X_prior_mean=None, X_prior_var=None):$/;"	m	class:BayesianGPLVM
+__init__	gpflow/gplvm.py	/^    def __init__(self, Y, latent_dim, X_mean=None, kern=None, mean_function=Zero()):$/;"	m	class:GPLVM
+__init__	gpflow/gpmc.py	/^    def __init__(self, X, Y, kern, likelihood,$/;"	m	class:GPMC
+__init__	gpflow/gpr.py	/^    def __init__(self, X, Y, kern, mean_function=None, name='name'):$/;"	m	class:GPR
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, active_dims=None):$/;"	m	class:Kern
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, degree=3.0, variance=1.0, offset=1.0, active_dims=None, ARD=False):$/;"	m	class:Polynomial
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, output_dim, rank, active_dims=None):$/;"	m	class:Coregion
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, period=1.0, variance=1.0,$/;"	m	class:PeriodicKernel
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, variance=1.0, active_dims=None):$/;"	m	class:Static
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, variance=1.0, active_dims=None, ARD=False):$/;"	m	class:Linear
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim, variance=1.0, lengthscales=None,$/;"	m	class:Stationary
+__init__	gpflow/kernels.py	/^    def __init__(self, input_dim,$/;"	m	class:ArcCosine
+__init__	gpflow/kernels.py	/^    def __init__(self, kern_list):$/;"	m	class:Combination
+__init__	gpflow/likelihoods.py	/^    def __init__(self):$/;"	m	class:Gaussian
+__init__	gpflow/likelihoods.py	/^    def __init__(self):$/;"	m	class:Likelihood
+__init__	gpflow/likelihoods.py	/^    def __init__(self, bin_edges):$/;"	m	class:Ordinal
+__init__	gpflow/likelihoods.py	/^    def __init__(self, deg_free=3.0):$/;"	m	class:StudentT
+__init__	gpflow/likelihoods.py	/^    def __init__(self, invlink=probit):$/;"	m	class:Bernoulli
+__init__	gpflow/likelihoods.py	/^    def __init__(self, invlink=probit, scale=1.0):$/;"	m	class:Beta
+__init__	gpflow/likelihoods.py	/^    def __init__(self, invlink=tf.exp):$/;"	m	class:Exponential
+__init__	gpflow/likelihoods.py	/^    def __init__(self, invlink=tf.exp):$/;"	m	class:Gamma
+__init__	gpflow/likelihoods.py	/^    def __init__(self, invlink=tf.exp, binsize=1.):$/;"	m	class:Poisson
+__init__	gpflow/likelihoods.py	/^    def __init__(self, likelihood_list):$/;"	m	class:SwitchedLikelihood
+__init__	gpflow/likelihoods.py	/^    def __init__(self, num_classes, epsilon=1e-3):$/;"	m	class:RobustMax
+__init__	gpflow/likelihoods.py	/^    def __init__(self, num_classes, invlink=None):$/;"	m	class:MultiClass
+__init__	gpflow/mean_functions.py	/^    def __init__(self, A=None, b=None):$/;"	m	class:Linear
+__init__	gpflow/mean_functions.py	/^    def __init__(self, W1=None, W2=None, b1=None, b2=None, input_dim=1, hidden_dim=10, output_dim=1):$/;"	m	class:TwoLayerReLUMLP
+__init__	gpflow/mean_functions.py	/^    def __init__(self, W1=None, W2=None, b1=None, b2=None, input_dim=1, hidden_dim=10, output_dim=1):$/;"	m	class:TwoLayerSigmoidMLP
+__init__	gpflow/mean_functions.py	/^    def __init__(self, c=None):$/;"	m	class:Constant
+__init__	gpflow/mean_functions.py	/^    def __init__(self, first_part, second_part):$/;"	m	class:Additive
+__init__	gpflow/mean_functions.py	/^    def __init__(self, first_part, second_part):$/;"	m	class:Product
+__init__	gpflow/mean_functions.py	/^    def __init__(self, meanfunction_list):$/;"	m	class:SwitchedMeanFunction
+__init__	gpflow/minibatch.py	/^    def __init__(self, array, minibatch_size, rng=None, batch_manager=None):$/;"	m	class:MinibatchData
+__init__	gpflow/minibatch.py	/^    def __init__(self, minibatch_size, total_points, rng=None):$/;"	m	class:IndexManager
+__init__	gpflow/minibatch.py	/^    def __init__(self, minibatch_size, total_points, rng=None):$/;"	m	class:NoReplacementSampling
+__init__	gpflow/minibatch.py	/^    def __init__(self, minibatch_size, total_points, rng=None):$/;"	m	class:SequenceIndices
+__init__	gpflow/model.py	/^    def __init__(self, X, Y, kern, likelihood, mean_function, name='model'):$/;"	m	class:GPModel
+__init__	gpflow/model.py	/^    def __init__(self, name='model'):$/;"	m	class:Model
+__init__	gpflow/model.py	/^    def __init__(self, objective):$/;"	m	class:ObjectiveWrapper
+__init__	gpflow/param.py	/^    def __init__(self):$/;"	m	class:Parameterized
+__init__	gpflow/param.py	/^    def __init__(self):$/;"	m	class:Parentable
+__init__	gpflow/param.py	/^    def __init__(self, *tf_arg_tuples):$/;"	m	class:AutoFlow
+__init__	gpflow/param.py	/^    def __init__(self, array, on_shape_change='raise'):$/;"	m	class:DataHolder
+__init__	gpflow/param.py	/^    def __init__(self, array, transform=transforms.Identity()):$/;"	m	class:Param
+__init__	gpflow/param.py	/^    def __init__(self, list_of_params):$/;"	m	class:ParamList
+__init__	gpflow/priors.py	/^    def __init__(self, a, b):$/;"	m	class:Beta
+__init__	gpflow/priors.py	/^    def __init__(self, lower=0, upper=1):$/;"	m	class:Uniform
+__init__	gpflow/priors.py	/^    def __init__(self, mu, sigma):$/;"	m	class:Laplace
+__init__	gpflow/priors.py	/^    def __init__(self, mu, var):$/;"	m	class:Gaussian
+__init__	gpflow/priors.py	/^    def __init__(self, mu, var):$/;"	m	class:LogNormal
+__init__	gpflow/priors.py	/^    def __init__(self, shape, scale):$/;"	m	class:Gamma
+__init__	gpflow/scoping.py	/^    def __init__(self, name):$/;"	m	class:NameScoped
+__init__	gpflow/session.py	/^    def __init__(self, output_file_name=None, output_directory=None,$/;"	m	class:TracerSession
+__init__	gpflow/sgpmc.py	/^    def __init__(self, X, Y, kern, likelihood, Z,$/;"	m	class:SGPMC
+__init__	gpflow/sgpr.py	/^    def __init__(self, X, Y, kern, Z, mean_function=None):$/;"	m	class:SGPR
+__init__	gpflow/sgpr.py	/^    def __init__(self, X, Y, kern, Z, mean_function=Zero()):$/;"	m	class:GPRFITC
+__init__	gpflow/svgp.py	/^    def __init__(self, X, Y, kern, likelihood, Z, mean_function=None,$/;"	m	class:SVGP
+__init__	gpflow/transforms.py	/^    def __init__(self, N, num_matrices=1, squeeze=False):$/;"	m	class:LowerTriangular
+__init__	gpflow/transforms.py	/^    def __init__(self, a=0., b=1.):$/;"	m	class:Logistic
+__init__	gpflow/transforms.py	/^    def __init__(self, dim=1, positive_transform=Log1pe()):$/;"	m	class:DiagMatrix
+__init__	gpflow/transforms.py	/^    def __init__(self, factor=1.0, chain_transform=Identity()):$/;"	m	class:Rescale
+__init__	gpflow/transforms.py	/^    def __init__(self, lower=1e-6):$/;"	m	class:Exp
+__init__	gpflow/transforms.py	/^    def __init__(self, lower=1e-6):$/;"	m	class:Log1pe
+__init__	gpflow/vgp.py	/^    def __init__(self, X, Y, kern, likelihood,$/;"	m	class:VGP
+__init__	gpflow/vgp.py	/^    def __init__(self, X, Y, kern, likelihood,$/;"	m	class:VGP_opper_archambeau
+__init__	testing/test_autoflow.py	/^    def __init__(self):$/;"	m	class:DumbModel
+__init__	testing/test_autoflow.py	/^    def __init__(self):$/;"	m	class:IncrementModel
+__init__	testing/test_ekerns.py	/^    def __init__(self):$/;"	m	class:TriDiagonalBlockRep
+__init__	testing/test_hmc.py	/^            def __init__(self):$/;"	m	class:SampleModelTest.setUp.Quadratic
+__init__	testing/test_likelihoods.py	/^    def __init__(self, likelihood, Y, tolerance):$/;"	m	class:TestSetup
+__init__	testing/test_model.py	/^            def __init__(self):$/;"	m	class:TestOptimize.setUp.Quadratic
+__init__	testing/test_model.py	/^        def __init__(self):$/;"	m	class:TestModelSessionGraphArguments.Dummy
+__init__	testing/test_model.py	/^    def __init__(self, iters_to_raise, f):$/;"	m	class:KeyboardRaiser
+__init__	testing/test_param.py	/^            def __init__(self):$/;"	m	class:TestParamList.test_in_model.Foo
+__len__	gpflow/param.py	/^    def __len__(self):$/;"	m	class:ParamList	file:
+__mul__	gpflow/kernels.py	/^    def __mul__(self, other):$/;"	m	class:Kern	file:
+__mul__	gpflow/mean_functions.py	/^    def __mul__(self, other):$/;"	m	class:MeanFunction	file:
+__setattr__	gpflow/_settings.py	/^    def __setattr__(self, name, value):$/;"	m	class:MutableNamedTuple	file:
+__setattr__	gpflow/param.py	/^    def __setattr__(self, key, value):$/;"	m	class:Param	file:
+__setattr__	gpflow/param.py	/^    def __setattr__(self, key, value):$/;"	m	class:Parameterized	file:
+__setitem__	gpflow/param.py	/^    def __setitem__(self, key, value):$/;"	m	class:ParamList	file:
+__setstate__	gpflow/model.py	/^    def __setstate__(self, d):$/;"	m	class:Model	file:
+__setstate__	gpflow/param.py	/^    def __setstate__(self, d):$/;"	m	class:Param	file:
+__setstate__	gpflow/param.py	/^    def __setstate__(self, d):$/;"	m	class:Parameterized	file:
+__setstate__	gpflow/param.py	/^    def __setstate__(self, d):$/;"	m	class:Parentable	file:
+__setstate__	gpflow/transforms.py	/^    def __setstate__(self, d):$/;"	m	class:Transform	file:
+__str__	gpflow/param.py	/^    def __str__(self, prepend=''):$/;"	m	class:Param	file:
+__str__	gpflow/param.py	/^    def __str__(self, prepend=''):$/;"	m	class:Parameterized	file:
+__str__	gpflow/param.py	/^    def __str__(self, prepend='Data:'):$/;"	m	class:DataHolder	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:Beta	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:Gamma	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:Gaussian	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:Laplace	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:LogNormal	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:Prior	file:
+__str__	gpflow/priors.py	/^    def __str__(self):$/;"	m	class:Uniform	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:DiagMatrix	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:Exp	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:Identity	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:Log1pe	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:Logistic	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:LowerTriangular	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:Rescale	file:
+__str__	gpflow/transforms.py	/^    def __str__(self):$/;"	m	class:Transform	file:
+__str__	testing/test_ekerns.py	/^    def __str__(self):$/;"	m	class:TriDiagonalBlockRep	file:
+__version__	gpflow/_version.py	/^__version__ = "0.4.1"$/;"	v
+_assert_pdeq	testing/test_ekerns.py	/^def _assert_pdeq(self, a, b, k=None, i=-1, l=-1):$/;"	f
+_begin_tf_mode	gpflow/param.py	/^    def _begin_tf_mode(self):$/;"	m	class:Parameterized
+_check_quadrature	gpflow/kernels.py	/^    def _check_quadrature(self):$/;"	m	class:Kern
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:Bernoulli
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:Beta
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:Exponential
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:Gamma
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:Likelihood
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:MultiClass
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:Poisson
+_check_targets	gpflow/likelihoods.py	/^    def _check_targets(self, Y_np):$/;"	m	class:SwitchedLikelihood
+_end_tf_mode	gpflow/param.py	/^    def _end_tf_mode(self):$/;"	m	class:Parameterized
+_exec_notebook	testing/test_notebooks.py	/^    def _exec_notebook(self, notebook_filename):$/;"	m	class:TestNotebooks
+_exec_notebook_ts	testing/test_notebooks.py	/^    def _exec_notebook_ts(self, notebook_filename):$/;"	m	class:TestNotebooks
+_generation_methods	gpflow/minibatch.py	/^    _generation_methods = ['replace', 'noreplace', 'sequential']$/;"	v	class:MinibatchData
+_get_type	gpflow/param.py	/^    def _get_type(self, array):$/;"	m	class:DataHolder
+_html_table_rows	gpflow/param.py	/^    def _html_table_rows(self, name_prefix=''):$/;"	m	class:Param
+_html_table_rows	gpflow/param.py	/^    def _html_table_rows(self, name_prefix=''):$/;"	m	class:Parameterized
+_kill_autoflow	gpflow/param.py	/^    def _kill_autoflow(self):$/;"	m	class:Parameterized
+_make_phi	gpflow/likelihoods.py	/^    def _make_phi(self, F):$/;"	m	class:Ordinal
+_multiprocess_can_split_	testing/gpflow_testcase.py	/^    _multiprocess_can_split_ = True$/;"	v	class:GPflowTestCase
+_optimize_np	gpflow/model.py	/^    def _optimize_np(self, method='L-BFGS-B', tol=None, callback=None,$/;"	m	class:Model
+_optimize_tf	gpflow/model.py	/^    def _optimize_tf(self, method, callback, maxiter):$/;"	m	class:Model
+_partition_and_stitch	gpflow/likelihoods.py	/^    def _partition_and_stitch(self, args, func_name):$/;"	m	class:SwitchedLikelihood
+_predict_non_logged_density	gpflow/likelihoods.py	/^    def _predict_non_logged_density(self, Fmu, Fvar, Y):$/;"	m	class:MultiClass
+_raise_for_existing_param	gpflow/param.py	/^                def _raise_for_existing_param(node):$/;"	f	function:Parameterized.__setattr__
+_repr_html_	gpflow/param.py	/^    def _repr_html_(self):$/;"	m	class:Parameterized
+_slice	gpflow/kernels.py	/^    def _slice(self, X, X2):$/;"	m	class:Kern
+_slice_cov	gpflow/kernels.py	/^    def _slice_cov(self, cov):$/;"	m	class:Kern
+_threshold	testing/test_ekerns.py	/^    _threshold = 0.5$/;"	v	class:TestAddCrossCalcs
+_threshold	testing/test_ekerns.py	/^    _threshold = 0.5$/;"	v	class:TestExpxKxzActiveDims
+_threshold	testing/test_ekerns.py	/^    _threshold = 0.5$/;"	v	class:TestKernExpActiveDims
+_threshold	testing/test_ekerns.py	/^    _threshold = 0.5$/;"	v	class:TestKernExpQuadrature
+_threshold	testing/test_ekerns.py	/^    _threshold = 1e-6$/;"	v	class:TestKernExpDiagXcov
+_trace_filename	gpflow/session.py	/^    def _trace_filename(self):$/;"	m	class:TracerSession
+_validate_vector_length	gpflow/transforms.py	/^    def _validate_vector_length(self, length):$/;"	m	class:LowerTriangular
+_weighted_product	gpflow/kernels.py	/^    def _weighted_product(self, X, X2=None):$/;"	m	class:ArcCosine
+add	testing/test_autoflow.py	/^    def add(self, x, y):$/;"	m	class:AddModel
+affine_backward	gpflow/layers.py	/^def affine_backward(dout, cache):$/;"	f
+affine_forward	gpflow/layers.py	/^def affine_forward(x, w, b):$/;"	f
+affine_relu_backward	gpflow/layers.py	/^def affine_relu_backward(dout, cache):$/;"	f
+affine_relu_forward	gpflow/layers.py	/^def affine_relu_forward(x, w, b):$/;"	f
+append	gpflow/param.py	/^    def append(self, item):$/;"	m	class:ParamList
+assert_add	testing/test_autoflow.py	/^        def assert_add(model, **kwargs):$/;"	f	function:TestAutoFlowSessionGraphArguments.test_autoflow_results
+atol	testing/test_param.py	/^            atol = 1e-6 if np_float_type is np.float32 else 1e-8$/;"	v	class:TestParamList.test_in_model.Foo
+author	doc/source/conf.py	/^author = u'James Hensman and Alexander G. de G. Matthews'$/;"	v
+author	setup.py	/^      author="James Hensman, Alex Matthews",$/;"	v
+author_email	setup.py	/^      author_email="james.hensman@gmail.com",$/;"	v
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:DiagMatrix
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:Exp
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:Identity
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:Log1pe
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:Logistic
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:LowerTriangular
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:Rescale
+backward	gpflow/transforms.py	/^    def backward(self, y):$/;"	m	class:Transform
+bernoulli	gpflow/densities.py	/^def bernoulli(p, y):$/;"	f
+beta	gpflow/densities.py	/^def beta(alpha, beta, y):$/;"	f
+build_common_terms	gpflow/sgpr.py	/^    def build_common_terms(self):$/;"	m	class:GPRFITC
+build_likelihood	gpflow/gplvm.py	/^    def build_likelihood(self):$/;"	m	class:BayesianGPLVM
+build_likelihood	gpflow/gpmc.py	/^    def build_likelihood(self):$/;"	m	class:GPMC
+build_likelihood	gpflow/gpr.py	/^    def build_likelihood(self):$/;"	m	class:GPR
+build_likelihood	gpflow/sgpmc.py	/^    def build_likelihood(self):$/;"	m	class:SGPMC
+build_likelihood	gpflow/sgpr.py	/^    def build_likelihood(self):$/;"	m	class:GPRFITC
+build_likelihood	gpflow/sgpr.py	/^    def build_likelihood(self):$/;"	m	class:SGPR
+build_likelihood	gpflow/svgp.py	/^    def build_likelihood(self):$/;"	m	class:SVGP
+build_likelihood	gpflow/vgp.py	/^    def build_likelihood(self):$/;"	m	class:VGP
+build_likelihood	gpflow/vgp.py	/^    def build_likelihood(self):$/;"	m	class:VGP_opper_archambeau
+build_likelihood	testing/test_autoflow.py	/^    def build_likelihood(self):$/;"	m	class:DumbModel
+build_likelihood	testing/test_hmc.py	/^            def build_likelihood(self):$/;"	m	class:SampleModelTest.setUp.Quadratic
+build_likelihood	testing/test_model.py	/^            def build_likelihood(self):$/;"	m	class:TestOptimize.setUp.Quadratic
+build_likelihood	testing/test_model.py	/^        def build_likelihood(self):$/;"	m	class:TestModelSessionGraphArguments.Dummy
+build_likelihood	testing/test_param.py	/^            def build_likelihood(self):$/;"	m	class:TestParamList.test_in_model.Foo
+build_likelihood	testing/test_priors.py	/^            def build_likelihood(self):$/;"	m	class:PriorModeTests.setUp.FlatModel
+build_predict	gpflow/gplvm.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:BayesianGPLVM
+build_predict	gpflow/gpmc.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:GPMC
+build_predict	gpflow/gpr.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:GPR
+build_predict	gpflow/model.py	/^    def build_predict(self, *args, **kwargs):$/;"	m	class:GPModel
+build_predict	gpflow/sgpmc.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:SGPMC
+build_predict	gpflow/sgpr.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:GPRFITC
+build_predict	gpflow/sgpr.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:SGPR
+build_predict	gpflow/svgp.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:SVGP
+build_predict	gpflow/vgp.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:VGP
+build_predict	gpflow/vgp.py	/^    def build_predict(self, Xnew, full_cov=False):$/;"	m	class:VGP_opper_archambeau
+build_prior	gpflow/param.py	/^    def build_prior(self):$/;"	m	class:Param
+build_prior	gpflow/param.py	/^    def build_prior(self):$/;"	m	class:Parameterized
+build_prior_KL	gpflow/svgp.py	/^    def build_prior_KL(self):$/;"	m	class:SVGP
+cb	doc/source/notebooks/FITCvsVFE.py	/^class cb():$/;"	c
+checkModelsClose	testing/test_methods.py	/^    def checkModelsClose(self,modelA,modelB,tolerance=1e-2):$/;"	m	class:TestStochasticGradients
+checkUniformDist	testing/test_minibatch_data.py	/^    def checkUniformDist(self, indeces, nChoices):$/;"	m	class:TestRandomIndexManagers
+classification_test	testing/test_notebooks.py	/^    def classification_test(self):$/;"	m	class:TestNotebooks
+classifiers	setup.py	/^      classifiers=['License :: OSI Approved :: Apache Software License',$/;"	v
+compareTwoModels	testing/test_methods.py	/^    def compareTwoModels(self,indecesOne,indecesTwo,$/;"	m	class:TestStochasticGradients
+compile	gpflow/gpmc.py	/^    def compile(self, session=None, graph=None, optimizer=None):$/;"	m	class:GPMC
+compile	gpflow/model.py	/^    def compile(self, session=None, graph=None, optimizer=None):$/;"	m	class:Model
+compile	gpflow/vgp.py	/^    def compile(self, session=None, graph=None, optimizer=None):$/;"	m	class:VGP
+compile	gpflow/vgp.py	/^    def compile(self, session=None, graph=None, optimizer=None):$/;"	m	class:VGP_opper_archambeau
+compute_K	gpflow/kernels.py	/^    def compute_K(self, X, Z):$/;"	m	class:Kern
+compute_K_symm	gpflow/kernels.py	/^    def compute_K_symm(self, X):$/;"	m	class:Kern
+compute_Kdiag	gpflow/kernels.py	/^    def compute_Kdiag(self, X):$/;"	m	class:Kern
+compute_eKdiag	gpflow/kernels.py	/^    def compute_eKdiag(self, X, Xcov=None):$/;"	m	class:Kern
+compute_eKxz	gpflow/kernels.py	/^    def compute_eKxz(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+compute_eKzxKxz	gpflow/kernels.py	/^    def compute_eKzxKxz(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+compute_exKxz	gpflow/kernels.py	/^    def compute_exKxz(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+compute_exKxz_pairwise	gpflow/kernels.py	/^    def compute_exKxz_pairwise(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+compute_log_likelihood	gpflow/model.py	/^    def compute_log_likelihood(self):$/;"	m	class:Model
+compute_log_prior	gpflow/model.py	/^    def compute_log_prior(self):$/;"	m	class:Model
+compute_upper_bound	gpflow/sgpr.py	/^    def compute_upper_bound(self):$/;"	m	class:SGPRUpperMixin
+conditional	gpflow/conditionals.py	/^def conditional(Xnew, X, kern, f, full_cov=False, q_sqrt=None, whiten=False):$/;"	f
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Bernoulli
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Beta
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Exponential
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Gamma
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Gaussian
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Likelihood
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:MultiClass
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Ordinal
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:Poisson
+conditional_mean	gpflow/likelihoods.py	/^    def conditional_mean(self, F):$/;"	m	class:StudentT
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Bernoulli
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Beta
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Exponential
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Gamma
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Gaussian
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Likelihood
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:MultiClass
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Ordinal
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:Poisson
+conditional_variance	gpflow/likelihoods.py	/^    def conditional_variance(self, F):$/;"	m	class:StudentT
+config	gpflow/_settings.py	/^config = read_config_file()$/;"	v
+copyright	doc/source/conf.py	/^copyright = u'2016, James Hensman and Alexander G. de G. Matthews'$/;"	v
+coreg_demo_test	testing/test_notebooks.py	/^    def coreg_demo_test(self):$/;"	m	class:TestNotebooks
+dL_do	gpflow/layers.py	/^def dL_do(o, y, K_inv):$/;"	f
+data_holders	gpflow/param.py	/^    def data_holders(self):$/;"	m	class:Parameterized
+description	setup.py	/^      description=("Gaussian process methods in tensorflow"),$/;"	v
+eKdiag	gpflow/ekernels.py	/^    def eKdiag(self, X, Xcov):$/;"	m	class:Add
+eKdiag	gpflow/ekernels.py	/^    def eKdiag(self, X, Xcov):$/;"	m	class:Linear
+eKdiag	gpflow/ekernels.py	/^    def eKdiag(self, X, Xcov=None):$/;"	m	class:RBF
+eKdiag	gpflow/ekernels.py	/^    def eKdiag(self, Xmu, Xcov):$/;"	m	class:Prod
+eKdiag	gpflow/kernels.py	/^    def eKdiag(self, Xmu, Xcov):$/;"	m	class:Kern
+eKxz	gpflow/ekernels.py	/^    def eKxz(self, Z, Xmu, Xcov):$/;"	m	class:Add
+eKxz	gpflow/ekernels.py	/^    def eKxz(self, Z, Xmu, Xcov):$/;"	m	class:Linear
+eKxz	gpflow/ekernels.py	/^    def eKxz(self, Z, Xmu, Xcov):$/;"	m	class:Prod
+eKxz	gpflow/ekernels.py	/^    def eKxz(self, Z, Xmu, Xcov):$/;"	m	class:RBF
+eKxz	gpflow/kernels.py	/^    def eKxz(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+eKzxKxz	gpflow/ekernels.py	/^    def eKzxKxz(self, Z, Xmu, Xcov):$/;"	m	class:Add
+eKzxKxz	gpflow/ekernels.py	/^    def eKzxKxz(self, Z, Xmu, Xcov):$/;"	m	class:Linear
+eKzxKxz	gpflow/ekernels.py	/^    def eKzxKxz(self, Z, Xmu, Xcov):$/;"	m	class:Prod
+eKzxKxz	gpflow/ekernels.py	/^    def eKzxKxz(self, Z, Xmu, Xcov):$/;"	m	class:RBF
+eKzxKxz	gpflow/kernels.py	/^    def eKzxKxz(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+epsilon	testing/test_likelihoods.py	/^            epsilon = 0.231$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+euclid_dist	gpflow/kernels.py	/^    def euclid_dist(self, X, X2):$/;"	m	class:Stationary
+evalKernelError	testing/test_kerns.py	/^    def evalKernelError(self, D, lengthscale, variance, period, X_data):$/;"	m	class:TestPeriodic
+evalKernelError	testing/test_kerns.py	/^    def evalKernelError(self, D, variance, weight_variances,$/;"	m	class:TestArcCosine
+exKxz	gpflow/ekernels.py	/^    def exKxz(self, Z, Xmu, Xcov):$/;"	m	class:Add
+exKxz	gpflow/ekernels.py	/^    def exKxz(self, Z, Xmu, Xcov):$/;"	m	class:Linear
+exKxz	gpflow/ekernels.py	/^    def exKxz(self, Z, Xmu, Xcov):$/;"	m	class:RBF
+exKxz	gpflow/kernels.py	/^    def exKxz(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+exKxz_pairwise	gpflow/ekernels.py	/^    def exKxz_pairwise(self, Z, Xmu, Xcov):$/;"	m	class:Add
+exKxz_pairwise	gpflow/ekernels.py	/^    def exKxz_pairwise(self, Z, Xmu, Xcov):$/;"	m	class:Linear
+exKxz_pairwise	gpflow/ekernels.py	/^    def exKxz_pairwise(self, Z, Xmu, Xcov):$/;"	m	class:RBF
+exKxz_pairwise	gpflow/kernels.py	/^    def exKxz_pairwise(self, Z, Xmu, Xcov):$/;"	m	class:Kern
+exclude_patterns	doc/source/conf.py	/^exclude_patterns = []$/;"	v
+expected_prediction	testing/test_likelihoods.py	/^            expected_prediction = -0.5499780059$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+exponential	gpflow/densities.py	/^def exponential(lamb, y):$/;"	f
+ext_modules	setup.py	/^      ext_modules=[],$/;"	v
+extensions	doc/source/conf.py	/^extensions = [$/;"	v
+eye	gpflow/tf_hacks.py	/^def eye(N):  # pragma: no cover$/;"	f
+fill_kwargs	gpflow/session.py	/^        def fill_kwargs(key, value):$/;"	f	function:get_session
+fixed	gpflow/param.py	/^    def fixed(self):$/;"	m	class:Parameterized
+fixed	gpflow/param.py	/^    def fixed(self, val):$/;"	m	class:Parameterized
+float_type	gpflow/conditionals.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/densities.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/ekernels.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/gplvm.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/gpmc.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/gpr.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/kernels.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/kullback_leiblers.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/likelihoods.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/mean_functions.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/model.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/param.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/priors.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/quadrature.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/sgpr.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/svgp.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/transforms.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	gpflow/vgp.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_conditionals.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_data_object.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_kldiv.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_likelihoods.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_mean_functions.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_param.py	/^float_type = settings.dtypes.float_type$/;"	v
+float_type	testing/test_transforms.py	/^float_type = settings.dtypes.float_type$/;"	v
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:DiagMatrix
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:Exp
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:Identity
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:Log1pe
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:Logistic
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:LowerTriangular
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:Rescale
+forward	gpflow/transforms.py	/^    def forward(self, x):$/;"	m	class:Transform
+forward	testing/test_ekerns.py	/^    def forward(self, x):$/;"	m	class:TriDiagonalBlockRep
+free_state_size	gpflow/transforms.py	/^    def free_state_size(self, variable_shape):$/;"	m	class:DiagMatrix
+free_state_size	gpflow/transforms.py	/^    def free_state_size(self, variable_shape):$/;"	m	class:LowerTriangular
+free_state_size	gpflow/transforms.py	/^    def free_state_size(self, variable_shape):$/;"	m	class:Transform
+function	testing/test_autoflow.py	/^    def function(self):$/;"	m	class:NoArgsModel
+gamma	gpflow/densities.py	/^def gamma(shape, scale, x):$/;"	f
+gauss_kl	gpflow/kullback_leiblers.py	/^def gauss_kl(q_mu, q_sqrt, K=None):$/;"	f
+gauss_kl_diag	gpflow/kullback_leiblers.py	/^def gauss_kl_diag(q_mu, q_sqrt, K):  # pragma: no cover$/;"	f
+gauss_kl_white	gpflow/kullback_leiblers.py	/^def gauss_kl_white(q_mu, q_sqrt):  # pragma: no cover$/;"	f
+gauss_kl_white_diag	gpflow/kullback_leiblers.py	/^def gauss_kl_white_diag(q_mu, q_sqrt):  # pragma: no cover$/;"	f
+gaussian	gpflow/densities.py	/^def gaussian(x, mu, var):$/;"	f
+gaussian_gp_predict	gpflow/conditionals.py	/^def gaussian_gp_predict(Xnew, X, kern, q_mu, q_sqrt, num_columns,$/;"	f
+gaussian_gp_predict_whitened	gpflow/conditionals.py	/^def gaussian_gp_predict_whitened(Xnew, X, kern, q_mu, q_sqrt, num_columns,$/;"	f
+getData	doc/source/notebooks/regression.py	/^def getData():$/;"	f
+getData	doc/source/notebooks/simple_regression.py	/^def getData():$/;"	f
+getExampleMatrices	testing/test_triang.py	/^    def getExampleMatrices(self, D, N ):$/;"	m	class:TestVecToTri
+getIndexedData	testing/test_methods.py	/^    def getIndexedData(self,baseX,baseY,indeces):$/;"	m	class:TestStochasticGradients
+getIndexedModel	testing/test_methods.py	/^    def getIndexedModel(self,X,Y,Z,minibatch_size,indeces):$/;"	m	class:TestStochasticGradients
+getKernel	doc/source/notebooks/FITCvsVFE.py	/^def getKernel():$/;"	f
+getLogPredictiveDensities	doc/source/notebooks/FITCvsVFE.py	/^def getLogPredictiveDensities( targetValues, means, variances ):$/;"	f
+getModel	testing/test_methods.py	/^    def getModel(self,X,Y,Z,minibatch_size):$/;"	m	class:TestStochasticGradients
+getModel	testing/test_variational.py	/^    def getModel(self, is_diagonal, is_whitened):$/;"	m	class:VariationalMultivariateTest
+getRegressionModel	doc/source/notebooks/FITCvsVFE.py	/^def getRegressionModel(X,Y):$/;"	f
+getRegressionModel	doc/source/notebooks/regression.py	/^def getRegressionModel(X,Y):$/;"	f
+getRegressionModel	doc/source/notebooks/simple_regression.py	/^def getRegressionModel(X,Y):$/;"	f
+getSamples	doc/source/notebooks/regression.py	/^def getSamples( m ):$/;"	f
+getSamples	doc/source/notebooks/simple_regression.py	/^def getSamples( m ):$/;"	f
+getSparseModel	doc/source/notebooks/FITCvsVFE.py	/^def getSparseModel(X,Y,isFITC=False):$/;"	f
+getTestSetups	testing/test_likelihoods.py	/^def getTestSetups(includeMultiClass=True, addNonStandardLinks=False):$/;"	f
+getTfOptimizer	testing/test_methods.py	/^    def getTfOptimizer(self):$/;"	m	class:TestStochasticGradients
+getTrainingTestData	doc/source/notebooks/FITCvsVFE.py	/^def getTrainingTestData():$/;"	f
+get_feed_dict_keys	gpflow/param.py	/^    def get_feed_dict_keys(self):$/;"	m	class:DataHolder
+get_feed_dict_keys	gpflow/param.py	/^    def get_feed_dict_keys(self):$/;"	m	class:Param
+get_feed_dict_keys	gpflow/param.py	/^    def get_feed_dict_keys(self):$/;"	m	class:Parameterized
+get_free_state	gpflow/param.py	/^    def get_free_state(self):$/;"	m	class:Param
+get_free_state	gpflow/param.py	/^    def get_free_state(self):$/;"	m	class:Parameterized
+get_model	testing/test_variational.py	/^    def get_model(self, is_diagonal, is_whitened):$/;"	m	class:VariationalUnivariateTest
+get_param_index	gpflow/param.py	/^    def get_param_index(self, param_to_index):$/;"	m	class:Parameterized
+get_parameter_dict	gpflow/param.py	/^    def get_parameter_dict(self, d):$/;"	m	class:Param
+get_parameter_dict	gpflow/param.py	/^    def get_parameter_dict(self, d=None):$/;"	m	class:Parameterized
+get_samples_df	gpflow/param.py	/^    def get_samples_df(self, samples):$/;"	m	class:Param
+get_samples_df	gpflow/param.py	/^    def get_samples_df(self, samples):$/;"	m	class:Parameterized
+get_session	gpflow/param.py	/^            def get_session(session_, graph_):$/;"	f	function:AutoFlow.__call__.runnable
+get_session	gpflow/session.py	/^def get_session(*args, **kwargs):$/;"	f
+get_settings	gpflow/_settings.py	/^    def get_settings(self):$/;"	m	class:SettingsManager
+gp_predict	gpflow/conditionals.py	/^def gp_predict(Xnew, X, kern, F, full_cov=False):  # pragma: no cover$/;"	f
+gp_predict_whitened	gpflow/conditionals.py	/^def gp_predict_whitened(Xnew, X, kern, V, full_cov=False):  # pragma: no cover$/;"	f
+hermgauss	gpflow/quadrature.py	/^def hermgauss(n):$/;"	f
+highest_parent	gpflow/param.py	/^    def highest_parent(self):$/;"	m	class:Parentable
+hold_out_limits	doc/source/notebooks/FITCvsVFE.py	/^hold_out_limits = [0.20, 0.60]$/;"	v
+html_static_path	doc/source/conf.py	/^html_static_path = ['_static']$/;"	v
+html_theme	doc/source/conf.py	/^    html_theme = 'sphinx_rtd_theme'$/;"	v
+html_theme_path	doc/source/conf.py	/^    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	v
+htmlhelp_basename	doc/source/conf.py	/^htmlhelp_basename = 'GPflowdoc'$/;"	v
+implemented_orders	gpflow/kernels.py	/^    implemented_orders = {0, 1, 2}$/;"	v	class:ArcCosine
+inc	testing/test_autoflow.py	/^    def inc(self, x):$/;"	m	class:IncrementModel
+include_package_data	setup.py	/^      include_package_data=True,$/;"	v
+index_block	testing/test_ekerns.py	/^def index_block(y, x, D):$/;"	f
+inducing_points_limits	doc/source/notebooks/FITCvsVFE.py	/^inducing_points_limits = [-1.,9]$/;"	v
+install_requires	setup.py	/^      install_requires=dependencies,$/;"	v
+int_type	gpflow/ekernels.py	/^int_type = settings.dtypes.int_type$/;"	v
+int_type	gpflow/kernels.py	/^int_type = settings.dtypes.int_type$/;"	v
+int_type	gpflow/quadrature.py	/^int_type = settings.dtypes.int_type$/;"	v
+jacobian	testing/test_transforms.py	/^        def jacobian(f):$/;"	f	function:TransformTests.test_logjac
+kernel	doc/source/notebooks/compare_variational.py	/^def kernel():$/;"	f
+kernel	testing/test_variational.py	/^def kernel(kernelVariance=1, lengthScale=1.):$/;"	f
+kernels_test	testing/test_notebooks.py	/^    def kernels_test(self):$/;"	m	class:TestNotebooks
+keywords	setup.py	/^      keywords="machine-learning gaussian-processes kernels tensorflow",$/;"	v
+l	testing/test_likelihoods.py	/^            l = gpflow.likelihoods.MultiClass($/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+language	doc/source/conf.py	/^language = None$/;"	v
+laplace	gpflow/densities.py	/^def laplace(mu, sigma, y):$/;"	f
+latex_documents	doc/source/conf.py	/^latex_documents = [$/;"	v
+latex_elements	doc/source/conf.py	/^latex_elements = {$/;"	v
+license	setup.py	/^      license="Apache License 2.0",$/;"	v
+loaded_settings	gpflow/_settings.py	/^loaded_settings = namedtuplify(config._sections)$/;"	v
+lognormal	gpflow/densities.py	/^def lognormal(x, mu, var):$/;"	f
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Bernoulli
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Beta
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Exponential
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Gamma
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Gaussian
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Likelihood
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:MultiClass
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Ordinal
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:Poisson
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:StudentT
+logp	gpflow/likelihoods.py	/^    def logp(self, F, Y):$/;"	m	class:SwitchedLikelihood
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:Beta
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:Gamma
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:Gaussian
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:Laplace
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:LogNormal
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:Prior
+logp	gpflow/priors.py	/^    def logp(self, x):$/;"	m	class:Uniform
+long_name	gpflow/param.py	/^    def long_name(self):$/;"	m	class:Parentable
+m	testing/test_param.py	/^            m = Foo()$/;"	v	class:TestParamList.test_in_model.Foo
+m2	doc/source/notebooks/compare_variational.py	/^m2 = gpflow.vgp.VGP(X, Y, kern=kernel(), likelihood=gpflow.likelihoods.Gaussian())$/;"	v
+m3	doc/source/notebooks/compare_variational.py	/^m3 = gpflow.svgp.SVGP(X, Y, kern=kernel(), likelihood=gpflow.likelihoods.Gaussian(), Z=X.copy(), q_diag=False, whiten=True)$/;"	v
+m4	doc/source/notebooks/compare_variational.py	/^m4 = gpflow.svgp.SVGP(X, Y, kern=kernel(), likelihood=gpflow.likelihoods.Gaussian(), Z=X.copy(), q_diag=False, whiten=False)$/;"	v
+make_kernel_names	gpflow/kernels.py	/^def make_kernel_names(kern_list):$/;"	f
+make_tf_array	gpflow/param.py	/^    def make_tf_array(self):$/;"	m	class:DataHolder
+make_tf_array	gpflow/param.py	/^    def make_tf_array(self, X):$/;"	m	class:Parameterized
+make_tf_array	gpflow/param.py	/^    def make_tf_array(self, free_array):$/;"	m	class:Param
+man_pages	doc/source/conf.py	/^man_pages = [$/;"	v
+master_doc	doc/source/conf.py	/^master_doc = 'index'$/;"	v
+mcmc_test	testing/test_notebooks.py	/^    def mcmc_test(self):$/;"	m	class:TestNotebooks
+min_tf_version	setup.py	/^min_tf_version = '1.0.0'$/;"	v
+mo	setup.py	/^mo = re.search(VSRE, verstrline, re.M)$/;"	v
+model_list	doc/source/notebooks/compare_variational.py	/^model_list = [m2,m3,m4]$/;"	v
+models_test	testing/test_notebooks.py	/^    def models_test(self):$/;"	m	class:TestNotebooks
+multiclass_test	testing/test_notebooks.py	/^    def multiclass_test(self):$/;"	m	class:TestNotebooks
+multivariate_normal	gpflow/densities.py	/^def multivariate_normal(x, mu, L):$/;"	f
+mvhermgauss	gpflow/quadrature.py	/^def mvhermgauss(H, D):$/;"	f
+mvnquad	gpflow/quadrature.py	/^def mvnquad(f, means, covs, H, Din, Dout=()):$/;"	f
+nPoints	doc/source/notebooks/compare_variational.py	/^nPoints = 3$/;"	v
+nRepeats	doc/source/notebooks/FITCvsVFE.py	/^nRepeats = 50$/;"	v
+name	gpflow/model.py	/^    def name(self):$/;"	m	class:Model
+name	gpflow/param.py	/^    def name(self):$/;"	m	class:Parentable
+namedtuplify	gpflow/_settings.py	/^def namedtuplify(mapping):$/;"	f
+nbpath	testing/test_notebooks.py	/^    nbpath = None$/;"	v	class:TestNotebooks
+nextIndices	gpflow/minibatch.py	/^    def nextIndices(self):$/;"	m	class:IndexManager
+nextIndices	gpflow/minibatch.py	/^    def nextIndices(self):$/;"	m	class:NoReplacementSampling
+nextIndices	gpflow/minibatch.py	/^    def nextIndices(self):$/;"	m	class:ReplacementSampling
+nextIndices	gpflow/minibatch.py	/^    def nextIndices(self):$/;"	m	class:SequenceIndices
+np_float_type	gpflow/gplvm.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/kernels.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/likelihoods.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/mean_functions.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/param.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/priors.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/quadrature.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	gpflow/transforms.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	testing/test_data_object.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	testing/test_likelihoods.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	testing/test_mean_functions.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	testing/test_param.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_float_type	testing/test_transforms.py	/^np_float_type = np.float32 if float_type is tf.float32 else np.float64$/;"	v
+np_kl_1d	testing/test_kldiv.py	/^def np_kl_1d(q_mu, q_sigma, p_var=1.0):$/;"	f
+np_kl_1d_many	testing/test_kldiv.py	/^def np_kl_1d_many(q_mus, q_sigmas, p_var=1.0):$/;"	f
+num_classes	testing/test_likelihoods.py	/^            num_classes = 5$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+num_gauss_hermite_points	testing/test_ekerns.py	/^    num_gauss_hermite_points = 50  # more may be needed to reach tighter tolerances, try 100.$/;"	v	class:TestKernExpQuadrature
+numpydoc_class_members_toctree	doc/source/conf.py	/^numpydoc_class_members_toctree = False$/;"	v
+obj	gpflow/model.py	/^        def obj(x):$/;"	f	function:Model.compile
+on_rtd	doc/source/conf.py	/^on_rtd = os.environ.get('READTHEDOCS', None) == 'True'$/;"	v
+on_separate_dimensions	gpflow/kernels.py	/^    def on_separate_dimensions(self):$/;"	m	class:Combination
+optimization_limits	doc/source/notebooks/FITCvsVFE.py	/^optimization_limits = [18.,25.]$/;"	v
+optimize	gpflow/model.py	/^    def optimize(self, method='L-BFGS-B', tol=None, callback=None,$/;"	m	class:Model
+optimizeModel	doc/source/notebooks/regression.py	/^def optimizeModel(m):$/;"	f
+optimizeModel	doc/source/notebooks/simple_regression.py	/^def optimizeModel(m):$/;"	f
+ordinal_test	testing/test_notebooks.py	/^    def ordinal_test(self):$/;"	m	class:TestNotebooks
+outputGraph	doc/source/notebooks/regression.py	/^def outputGraph( model, dirName, fileName ):$/;"	f
+package_data	setup.py	/^      package_data={'gpflow': ['gpflow\/gpflowrc']},$/;"	v
+package_dir	setup.py	/^      package_dir={'gpflow': 'gpflow'},$/;"	v
+packages	setup.py	/^      packages=["gpflow"],$/;"	v
+pandas	testing/test_hmc.py	/^    pandas = None$/;"	v
+parse	gpflow/_settings.py	/^def parse(string):$/;"	f
+parseGenerationMethod	gpflow/minibatch.py	/^    def parseGenerationMethod(self,$/;"	m	class:MinibatchData
+plot	doc/source/notebooks/compare_variational.py	/^def plot(m, color='b'):$/;"	f
+plotComparisonFigure	doc/source/notebooks/FITCvsVFE.py	/^def plotComparisonFigure(xtrain, sparse_model,exact_model, ax_predictions, ax_inducing_points, ax_optimization, iterations, log_likelihoods,hold_out_likelihood, title):$/;"	f
+plotData	doc/source/notebooks/regression.py	/^def plotData(X,Y):$/;"	f
+plotOptimizationResult	doc/source/notebooks/regression.py	/^def plotOptimizationResult(X,Y,m):$/;"	f
+plotPredictions	doc/source/notebooks/FITCvsVFE.py	/^def plotPredictions( ax, model, color, label ):$/;"	f
+plotSamples	doc/source/notebooks/regression.py	/^def plotSamples( X, Y, m, samples ):$/;"	f
+poisson	gpflow/densities.py	/^def poisson(lamb, y):$/;"	f
+pop	gpflow/_settings.py	/^    def pop(self):$/;"	m	class:SettingsManager
+positive	gpflow/transforms.py	/^positive = Log1pe()$/;"	v
+predict_density	gpflow/likelihoods.py	/^    def predict_density(self, Fmu, Fvar, Y):$/;"	m	class:Bernoulli
+predict_density	gpflow/likelihoods.py	/^    def predict_density(self, Fmu, Fvar, Y):$/;"	m	class:Gaussian
+predict_density	gpflow/likelihoods.py	/^    def predict_density(self, Fmu, Fvar, Y):$/;"	m	class:Likelihood
+predict_density	gpflow/likelihoods.py	/^    def predict_density(self, Fmu, Fvar, Y):$/;"	m	class:MultiClass
+predict_density	gpflow/likelihoods.py	/^    def predict_density(self, Fmu, Fvar, Y):$/;"	m	class:SwitchedLikelihood
+predict_density	gpflow/model.py	/^    def predict_density(self, Xnew, Ynew):$/;"	m	class:GPModel
+predict_f	gpflow/model.py	/^    def predict_f(self, Xnew):$/;"	m	class:GPModel
+predict_f_full_cov	gpflow/model.py	/^    def predict_f_full_cov(self, Xnew):$/;"	m	class:GPModel
+predict_f_samples	gpflow/model.py	/^    def predict_f_samples(self, Xnew, num_samples):$/;"	m	class:GPModel
+predict_limits	doc/source/notebooks/FITCvsVFE.py	/^predict_limits = [-4.,4.]$/;"	v
+predict_mean_and_var	gpflow/likelihoods.py	/^    def predict_mean_and_var(self, Fmu, Fvar):$/;"	m	class:Bernoulli
+predict_mean_and_var	gpflow/likelihoods.py	/^    def predict_mean_and_var(self, Fmu, Fvar):$/;"	m	class:Gaussian
+predict_mean_and_var	gpflow/likelihoods.py	/^    def predict_mean_and_var(self, Fmu, Fvar):$/;"	m	class:Likelihood
+predict_mean_and_var	gpflow/likelihoods.py	/^    def predict_mean_and_var(self, Fmu, Fvar):$/;"	m	class:MultiClass
+predict_mean_and_var	gpflow/likelihoods.py	/^    def predict_mean_and_var(self, Fmu, Fvar):$/;"	m	class:SwitchedLikelihood
+predict_y	gpflow/model.py	/^    def predict_y(self, Xnew):$/;"	m	class:GPModel
+preproc	testing/test_notebooks.py	/^    preproc = None$/;"	v	class:TestNotebooks
+printModelParameters	doc/source/notebooks/FITCvsVFE.py	/^def printModelParameters( model ):$/;"	f
+prob_is_largest	gpflow/likelihoods.py	/^    def prob_is_largest(self, Y, mu, var, gh_x, gh_w):$/;"	m	class:RobustMax
+prob_is_largest	testing/test_likelihoods.py	/^            def prob_is_largest(self, Y, Fmu, Fvar, gh_x, gh_w):$/;"	m	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+probit	gpflow/likelihoods.py	/^def probit(x):$/;"	f
+project	doc/source/conf.py	/^project = u'GPflow'$/;"	v
+push	gpflow/_settings.py	/^    def push(self, settings):$/;"	m	class:SettingsManager
+py_modules	setup.py	/^      py_modules=['gpflow.__init__'],$/;"	v
+pygments_style	doc/source/conf.py	/^pygments_style = 'sphinx'$/;"	v
+quad_eKzx1Kxz2	gpflow/ekernels.py	/^    def quad_eKzx1Kxz2(self, Ka, Kb, Z, Xmu, Xcov):$/;"	m	class:Add
+randomize	gpflow/param.py	/^    def randomize(self, distributions={}, skipfixed=True):$/;"	m	class:Param
+randomize	gpflow/param.py	/^    def randomize(self, distributions={}, skipfixed=True):$/;"	m	class:Parameterized
+readCsvFile	doc/source/notebooks/FITCvsVFE.py	/^def readCsvFile( fileName ):$/;"	f
+read_config_file	gpflow/_settings.py	/^def read_config_file(path=None):$/;"	f
+recompile_keys	gpflow/param.py	/^recompile_keys = ['prior', 'transform', 'fixed']$/;"	v
+referenceArcCosineKernel	testing/reference.py	/^def referenceArcCosineKernel( X, order, weightVariances, biasVariance, signalVariance ):$/;"	f
+referenceInverse	testing/test_triang.py	/^    def referenceInverse(self, matrices):$/;"	m	class:TestVecToTri
+referenceMultivariatePriorKL	testing/test_variational.py	/^def referenceMultivariatePriorKL(meanA, covA, meanB, covB):$/;"	f
+referencePeriodicKernel	testing/reference.py	/^def referencePeriodicKernel( X, lengthScale, signalVariance, period ):$/;"	f
+referenceRbfKernel	testing/reference.py	/^def referenceRbfKernel( X, lengthScale, signalVariance ):$/;"	f
+referenceUnivariateLogMarginalLikelihood	testing/test_variational.py	/^def referenceUnivariateLogMarginalLikelihood(y, K, noiseVariance):$/;"	f
+referenceUnivariatePosterior	testing/test_variational.py	/^def referenceUnivariatePosterior(y, K, noiseVariance):$/;"	f
+referenceUnivariatePriorKL	testing/test_variational.py	/^def referenceUnivariatePriorKL(meanA, meanB, varA, varB):$/;"	f
+regression_with_updated_data_test	testing/test_notebooks.py	/^    def regression_with_updated_data_test(self):$/;"	m	class:TestNotebooks
+release	doc/source/conf.py	/^release = u'0.3.8'$/;"	v
+relu_backward	gpflow/layers.py	/^def relu_backward(dout, cache):$/;"	f
+relu_forward	gpflow/layers.py	/^def relu_forward(x):$/;"	f
+rng	doc/source/notebooks/compare_variational.py	/^rng =np.random.RandomState(4)$/;"	v
+rng	testing/test_likelihoods.py	/^            rng = np.random.RandomState(1)$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
+run	gpflow/session.py	/^    def run(self, fetches, feed_dict=None, options=None, run_metadata=None):$/;"	m	class:TracerSession
+runExperiments	doc/source/notebooks/regression.py	/^def runExperiments(plotting=True,outputGraphs=False):$/;"	f
+runExperiments	doc/source/notebooks/simple_regression.py	/^def runExperiments(sampling=True,outputGraphs=False):$/;"	f
+run_models	testing/test_likelihoods.py	/^    def run_models(self, likelihood, Y):$/;"	m	class:TestLikelihoodChecks
+runnable	gpflow/param.py	/^        def runnable(instance, *np_args, **kwargs):$/;"	f	function:AutoFlow.__call__
+runnable	gpflow/scoping.py	/^        def runnable(*args, **kwargs):$/;"	f	function:NameScoped.__call__
+sample	gpflow/model.py	/^    def sample(self, num_samples, Lmin=5, Lmax=20, epsilon=0.01, thin=1,$/;"	m	class:Model
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:Beta
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:Gamma
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:Gaussian
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:Laplace
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:LogNormal
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:Prior
+sample	gpflow/priors.py	/^    def sample(self, shape=(1,)):$/;"	m	class:Uniform
+sample_HMC	gpflow/hmc.py	/^def sample_HMC(f, num_samples, Lmin, Lmax, epsilon, x0, verbose=False,$/;"	f
+sanity_check_test	testing/test_notebooks.py	/^    def sanity_check_test(self):$/;"	m	class:TestNotebooks
+session	gpflow/model.py	/^    def session(self):$/;"	m	class:Model
+setModelPriors	doc/source/notebooks/regression.py	/^def setModelPriors( m ):$/;"	f
+setModelPriors	doc/source/notebooks/simple_regression.py	/^def setModelPriors( m ):$/;"	f
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestAdd
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestAutoFlowSessionGraphArguments
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestDataHolder
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestFixAndPredict
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestGPmodel
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestNoArgs
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestResetGraph
+setUp	testing/test_autoflow.py	/^    def setUp(self):$/;"	m	class:TestShareArgs
+setUp	testing/test_conditionals.py	/^    def setUp(self):$/;"	m	class:DiagsTest
+setUp	testing/test_conditionals.py	/^    def setUp(self):$/;"	m	class:WhitenTest
+setUp	testing/test_conditionals.py	/^    def setUp(self):$/;"	m	class:WhitenTestGaussian
+setUp	testing/test_config.py	/^    def setUp(self):$/;"	m	class:TestConfigParsing
+setUp	testing/test_coregion.py	/^    def setUp(self):$/;"	m	class:TestEquivalence
+setUp	testing/test_data_object.py	/^    def setUp(self):$/;"	m	class:TestDataHolderIntegers
+setUp	testing/test_data_object.py	/^    def setUp(self):$/;"	m	class:TestDataHolderModels
+setUp	testing/test_data_object.py	/^    def setUp(self):$/;"	m	class:TestDataHolderSimple
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestAddCrossCalcs
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestExpxKxzActiveDims
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestKernExpActiveDims
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestKernExpDelta
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestKernExpDiagXcov
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestKernExpQuadrature
+setUp	testing/test_ekerns.py	/^    def setUp(self):$/;"	m	class:TestKernProd
+setUp	testing/test_gplvm.py	/^    def setUp(self):$/;"	m	class:TestBayesianGPLVM
+setUp	testing/test_gplvm.py	/^    def setUp(self):$/;"	m	class:TestGPLVM
+setUp	testing/test_hmc.py	/^    def setUp(self):$/;"	m	class:SampleGaussianTest
+setUp	testing/test_hmc.py	/^    def setUp(self):$/;"	m	class:SampleModelTest
+setUp	testing/test_hmc.py	/^    def setUp(self):$/;"	m	class:SamplesDictTest
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestARDActiveProd
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestAdd
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestCoregion
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestKernDiags
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestKernSymmetry
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestProd
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestSlice
+setUp	testing/test_kerns.py	/^    def setUp(self):$/;"	m	class:TestWhite
+setUp	testing/test_kldiv.py	/^    def setUp(self):$/;"	m	class:DiagsTest
+setUp	testing/test_kldiv.py	/^    def setUp(self):$/;"	m	class:EqualityTest
+setUp	testing/test_kldiv.py	/^    def setUp(self):$/;"	m	class:OneDTest
+setUp	testing/test_kldiv.py	/^    def setUp(self):$/;"	m	class:WhitenedTest
+setUp	testing/test_likelihoods.py	/^    def setUp(self):$/;"	m	class:TestPredictConditional
+setUp	testing/test_likelihoods.py	/^    def setUp(self):$/;"	m	class:TestQuadrature
+setUp	testing/test_likelihoods.py	/^    def setUp(self):$/;"	m	class:TestSwitchedLikelihood
+setUp	testing/test_mean_functions.py	/^    def setUp(self):$/;"	m	class:TestBug277Regression
+setUp	testing/test_mean_functions.py	/^    def setUp(self):$/;"	m	class:TestMeanFuncs
+setUp	testing/test_mean_functions.py	/^    def setUp(self):$/;"	m	class:TestModelCompositionOperations
+setUp	testing/test_mean_functions.py	/^    def setUp(self):$/;"	m	class:TestModelsWithMeanFuncs
+setUp	testing/test_method_equivalence.py	/^    def setUp(self):$/;"	m	class:TestEquivalence
+setUp	testing/test_method_equivalence.py	/^    def setUp(self):$/;"	m	class:TestUpperBound
+setUp	testing/test_methods.py	/^    def setUp(self):$/;"	m	class:TestMethods
+setUp	testing/test_methods.py	/^    def setUp(self):$/;"	m	class:TestSVGP
+setUp	testing/test_methods.py	/^    def setUp(self):$/;"	m	class:TestSparseMCMC
+setUp	testing/test_methods.py	/^    def setUp(self):$/;"	m	class:TestStochasticGradients
+setUp	testing/test_minibatch_data.py	/^    def setUp(self):$/;"	m	class:TestMinibatchData
+setUp	testing/test_model.py	/^    def setUp(self):$/;"	m	class:TestKeyboardCatching
+setUp	testing/test_model.py	/^    def setUp(self):$/;"	m	class:TestLikelihoodAutoflow
+setUp	testing/test_model.py	/^    def setUp(self):$/;"	m	class:TestNeedsRecompile
+setUp	testing/test_model.py	/^    def setUp(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+setUp	testing/test_model.py	/^    def setUp(self):$/;"	m	class:TestOptimize
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:ParamTestsDeeper
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:ParamTestsScalar
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:ParamTestsWider
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:TestDictEmpty
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:TestDictSVGP
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:TestDictSimple
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:TestPickleAndDict
+setUp	testing/test_param.py	/^    def setUp(self):$/;"	m	class:TestScopes
+setUp	testing/test_pickle.py	/^    def setUp(self):$/;"	m	class:TestPickleEmpty
+setUp	testing/test_pickle.py	/^    def setUp(self):$/;"	m	class:TestPickleGPR
+setUp	testing/test_pickle.py	/^    def setUp(self):$/;"	m	class:TestPickleSVGP
+setUp	testing/test_pickle.py	/^    def setUp(self):$/;"	m	class:TestPickleSimple
+setUp	testing/test_pickle.py	/^    def setUp(self):$/;"	m	class:TestTransforms
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCov
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovGPMC
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovGPRFITC
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovSGPMC
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovSGPR
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovSVGP1
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovSVGP2
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovSVGP3
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovSVGP4
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestFullCovVGP
+setUp	testing/test_predict.py	/^    def setUp(self):$/;"	m	class:TestGaussian
+setUp	testing/test_priors.py	/^    def setUp(self):$/;"	m	class:PriorModeTests
+setUp	testing/test_profiling.py	/^    def setUp(self):$/;"	m	class:TestProfiling
+setUp	testing/test_session.py	/^    def setUp(self):$/;"	m	class:TestSessionConfiguration
+setUp	testing/test_transforms.py	/^    def setUp(self):$/;"	m	class:TestDiagMatrixTransform
+setUp	testing/test_transforms.py	/^    def setUp(self):$/;"	m	class:TestLowerTriTransform
+setUp	testing/test_transforms.py	/^    def setUp(self):$/;"	m	class:TestOverflow
+setUp	testing/test_transforms.py	/^    def setUp(self):$/;"	m	class:TransformTests
+setUp	testing/test_variational.py	/^    def setUp(self):$/;"	m	class:VariationalMultivariateTest
+setUp	testing/test_variational.py	/^    def setUp(self):$/;"	m	class:VariationalUnivariateTest
+setUpClass	testing/test_notebooks.py	/^    def setUpClass(cls):$/;"	m	class:TestNotebooks
+set_data	gpflow/param.py	/^    def set_data(self, array):$/;"	m	class:DataHolder
+set_parameter_dict	gpflow/param.py	/^    def set_parameter_dict(self, d):$/;"	m	class:Param
+set_parameter_dict	gpflow/param.py	/^    def set_parameter_dict(self, d):$/;"	m	class:Parameterized
+set_state	gpflow/param.py	/^    def set_state(self, x):$/;"	m	class:Param
+set_state	gpflow/param.py	/^    def set_state(self, x):$/;"	m	class:Parameterized
+settings	gpflow/_settings.py	/^settings = SettingsManager(loaded_settings)$/;"	v
+settings_test	testing/test_notebooks.py	/^    def settings_test(self):$/;"	m	class:TestNotebooks
+shape	gpflow/param.py	/^    def shape(self):$/;"	m	class:DataHolder
+shape	gpflow/param.py	/^    def shape(self):$/;"	m	class:Param
+showAllPlots	doc/source/notebooks/regression.py	/^def showAllPlots():$/;"	f
+sigmoid	testing/test_likelihoods.py	/^        def sigmoid(x):$/;"	f	function:getTestSetups
+size	gpflow/param.py	/^    def size(self):$/;"	m	class:DataHolder
+size	gpflow/param.py	/^    def size(self):$/;"	m	class:Param
+snelsonDemo	doc/source/notebooks/FITCvsVFE.py	/^def snelsonDemo():$/;"	f
+sorted_params	gpflow/param.py	/^    def sorted_params(self):$/;"	m	class:ParamList
+sorted_params	gpflow/param.py	/^    def sorted_params(self):$/;"	m	class:Parameterized
+source_suffix	doc/source/conf.py	/^source_suffix = '.rst'$/;"	v
+squareT	testing/test_kldiv.py	/^def squareT(A):$/;"	f
+square_dist	gpflow/kernels.py	/^    def square_dist(self, X, X2):$/;"	m	class:Stationary
+stretch	doc/source/notebooks/FITCvsVFE.py	/^def stretch( lenNIters, initialValues ):$/;"	f
+structure_test	testing/test_notebooks.py	/^    def structure_test(self):$/;"	m	class:TestNotebooks
+student_t	gpflow/densities.py	/^def student_t(x, mean, scale, deg_free):$/;"	f
+tearDown	testing/gpflow_testcase.py	/^    def tearDown(self):$/;"	m	class:GPflowTestCase
+tearDown	testing/test_profiling.py	/^    def tearDown(self):$/;"	m	class:TestProfiling
+tearDown	testing/test_session.py	/^    def tearDown(self):$/;"	m	class:TestSessionConfiguration
+temp_settings	gpflow/_settings.py	/^    def temp_settings(self, tmp_settings):$/;"	m	class:SettingsManager
+templates_path	doc/source/conf.py	/^templates_path = ['_templates']$/;"	v
+test	testing/test_autoflow.py	/^    def test(self):$/;"	m	class:TestFixAndPredict
+test	testing/test_autoflow.py	/^    def test(self):$/;"	m	class:TestResetGraph
+test	testing/test_autoflow.py	/^    def test(self):$/;"	m	class:TestSVGP
+test	testing/test_config.py	/^    def test(self):$/;"	m	class:TestConfigParsing
+test	testing/test_kerns.py	/^    def test(self):$/;"	m	class:TestARDActiveProd
+test	testing/test_kerns.py	/^    def test(self):$/;"	m	class:TestKernDiags
+test	testing/test_kerns.py	/^    def test(self):$/;"	m	class:TestWhite
+test	testing/test_mean_functions.py	/^    def test(self):$/;"	m	class:TestBug277Regression
+test	testing/test_mean_functions.py	/^    def test(self):$/;"	m	class:TestSwitchedMeanFunction
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestDictEmpty
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestDictSVGP
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestDictSimple
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestFixWithPrior
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestPickleAndDict
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestRandomizeDefault
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestRandomizeFeedPriors
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestRandomizeHierarchical
+test	testing/test_param.py	/^    def test(self):$/;"	m	class:TestRandomizePrior
+test	testing/test_pickle.py	/^    def test(self):$/;"	m	class:TestActiveDims
+test	testing/test_pickle.py	/^    def test(self):$/;"	m	class:TestPickleEmpty
+test	testing/test_pickle.py	/^    def test(self):$/;"	m	class:TestPickleFix
+test	testing/test_pickle.py	/^    def test(self):$/;"	m	class:TestPickleGPR
+test	testing/test_pickle.py	/^    def test(self):$/;"	m	class:TestPickleSVGP
+test	testing/test_pickle.py	/^    def test(self):$/;"	m	class:TestPickleSimple
+testA	testing/test_likelihoods.py	/^    def testA(self):$/;"	m	class:TestMulticlassIndexFix
+testA	testing/test_minibatch_data.py	/^    def testA(self):$/;"	m	class:TestMinibatchData
+testA	testing/test_minibatch_data.py	/^    def testA(self):$/;"	m	class:TestSequentialManager
+testAddingToAnother	testing/test_param.py	/^    def testAddingToAnother(self):$/;"	m	class:SingleParamInvariantTest
+testAddingToAnother	testing/test_param.py	/^    def testAddingToAnother(self):$/;"	m	class:SingleParamterizedInvariantTest
+testAssign	testing/test_param.py	/^    def testAssign(self):$/;"	m	class:ParamTestsScalar
+testB	testing/test_minibatch_data.py	/^    def testB(self):$/;"	m	class:TestMinibatchData
+testB	testing/test_minibatch_data.py	/^    def testB(self):$/;"	m	class:TestSequentialManager
+testBasicFunctionality	testing/test_triang.py	/^    def testBasicFunctionality(self):$/;"	m	class:TestVecToTri
+testBetaMode	testing/test_priors.py	/^    def testBetaMode(self):$/;"	m	class:PriorModeTests
+testC	testing/test_minibatch_data.py	/^    def testC(self):$/;"	m	class:TestMinibatchData
+testContextManager	testing/test_config.py	/^    def testContextManager(self):$/;"	m	class:TestSettingsManager
+testDifferentiable	testing/test_triang.py	/^    def testDifferentiable(self):$/;"	m	class:TestVecToTri
+testDivByZero	testing/test_transforms.py	/^    def testDivByZero(self):$/;"	m	class:TestOverflow
+testErrors	testing/test_transforms.py	/^    def testErrors(self):$/;"	m	class:TestLowerTriTransform
+testFixed	testing/test_param.py	/^    def testFixed(self):$/;"	m	class:ParamTestsDeeper
+testFixed	testing/test_param.py	/^    def testFixed(self):$/;"	m	class:ParamTestsScalar
+testFixed	testing/test_param.py	/^    def testFixed(self):$/;"	m	class:ParamTestsWider
+testFixedFreeState	testing/test_param.py	/^    def testFixedFreeState(self):$/;"	m	class:ParamTestsScalar
+testFixing	testing/test_param.py	/^    def testFixing(self):$/;"	m	class:ParamTestsDeeper
+testFixing	testing/test_param.py	/^    def testFixing(self):$/;"	m	class:ParamTestsScalar
+testFixing	testing/test_param.py	/^    def testFixing(self):$/;"	m	class:ParamTestsWider
+testFreeState	testing/test_param.py	/^    def testFreeState(self):$/;"	m	class:ParamTestsDeeper
+testFreeState	testing/test_param.py	/^    def testFreeState(self):$/;"	m	class:ParamTestsScalar
+testFreeState	testing/test_param.py	/^    def testFreeState(self):$/;"	m	class:ParamTestsWider
+testGammaMode	testing/test_priors.py	/^    def testGammaMode(self):$/;"	m	class:PriorModeTests
+testGaussianMode	testing/test_priors.py	/^    def testGaussianMode(self):$/;"	m	class:PriorModeTests
+testGaussianModeMatrix	testing/test_priors.py	/^    def testGaussianModeMatrix(self):$/;"	m	class:PriorModeTests
+testHighestParent	testing/test_param.py	/^    def testHighestParent(self):$/;"	m	class:ParamTestsDeeper
+testHighestParent	testing/test_param.py	/^    def testHighestParent(self):$/;"	m	class:ParamTestsScalar
+testHighestParent	testing/test_param.py	/^    def testHighestParent(self):$/;"	m	class:ParamTestsWider
+testIndexParam	testing/test_param.py	/^    def testIndexParam(self):$/;"	m	class:ParamTestsWider
+testLaplaceMode	testing/test_priors.py	/^    def testLaplaceMode(self):$/;"	m	class:PriorModeTests
+testLogNormalMode	testing/test_priors.py	/^    def testLogNormalMode(self):$/;"	m	class:PriorModeTests
+testMakeTF	testing/test_param.py	/^    def testMakeTF(self):$/;"	m	class:ParamTestsDeeper
+testMakeTF	testing/test_param.py	/^    def testMakeTF(self):$/;"	m	class:ParamTestsScalar
+testMakeTF	testing/test_param.py	/^    def testMakeTF(self):$/;"	m	class:ParamTestsWider
+testMutability	testing/test_config.py	/^    def testMutability(self):$/;"	m	class:TestSettingsManager
+testName	testing/test_param.py	/^    def testName(self):$/;"	m	class:ParamTestsDeeper
+testName	testing/test_param.py	/^    def testName(self):$/;"	m	class:ParamTestsScalar
+testName	testing/test_param.py	/^    def testName(self):$/;"	m	class:ParamTestsWider
+testNoReplacement	testing/test_minibatch_data.py	/^    def testNoReplacement(self):$/;"	m	class:TestRandomIndexManagers
+testOne	testing/test_methods.py	/^    def testOne(self):$/;"	m	class:TestStochasticGradients
+testOverflow	testing/test_transforms.py	/^    def testOverflow(self):$/;"	m	class:TestOverflow
+testPredictDensity	testing/test_likelihoods.py	/^    def testPredictDensity(self):$/;"	m	class:TestRobustMaxMulticlass
+testRaises	testing/test_config.py	/^    def testRaises(self):$/;"	m	class:TestSettingsManager
+testReassign	testing/test_param.py	/^    def testReassign(self):$/;"	m	class:SingleParamInvariantTest
+testReassign	testing/test_param.py	/^    def testReassign(self):$/;"	m	class:SingleParamterizedInvariantTest
+testRecompile	testing/test_param.py	/^    def testRecompile(self):$/;"	m	class:ParamTestsDeeper
+testRecompile	testing/test_param.py	/^    def testRecompile(self):$/;"	m	class:ParamTestsScalar
+testRecompile	testing/test_param.py	/^    def testRecompile(self):$/;"	m	class:ParamTestsWider
+testReferenceAbove	testing/test_param.py	/^    def testReferenceAbove(self):$/;"	m	class:SingleParamInvariantTest
+testReferenceAbove	testing/test_param.py	/^    def testReferenceAbove(self):$/;"	m	class:SingleParamterizedInvariantTest
+testReferenceAccross	testing/test_param.py	/^    def testReferenceAccross(self):$/;"	m	class:SingleParamInvariantTest
+testReferenceAccross	testing/test_param.py	/^    def testReferenceAccross(self):$/;"	m	class:SingleParamterizedInvariantTest
+testReferenceBelow	testing/test_param.py	/^    def testReferenceBelow(self):$/;"	m	class:SingleParamInvariantTest
+testReferenceBelow	testing/test_param.py	/^    def testReferenceBelow(self):$/;"	m	class:SingleParamterizedInvariantTest
+testReplacement	testing/test_minibatch_data.py	/^    def testReplacement(self):$/;"	m	class:TestRandomIndexManagers
+testReplacement	testing/test_param.py	/^    def testReplacement(self):$/;"	m	class:ParamTestsDeeper
+testReplacement	testing/test_param.py	/^    def testReplacement(self):$/;"	m	class:ParamTestsScalar
+testReplacement2	testing/test_param.py	/^    def testReplacement2(self):$/;"	m	class:ParamTestsDeeper
+testSelfReference	testing/test_param.py	/^    def testSelfReference(self):$/;"	m	class:SingleParamterizedInvariantTest
+testSymmetric	testing/test_likelihoods.py	/^    def testSymmetric(self):$/;"	m	class:TestRobustMaxMulticlass
+testTFMode	testing/test_param.py	/^    def testTFMode(self):$/;"	m	class:ParamTestsDeeper
+testTFMode	testing/test_param.py	/^    def testTFMode(self):$/;"	m	class:ParamTestsScalar
+testTFMode	testing/test_param.py	/^    def testTFMode(self):$/;"	m	class:ParamTestsWider
+testThree	testing/test_methods.py	/^    def testThree(self):$/;"	m	class:TestStochasticGradients
+testTwo	testing/test_methods.py	/^    def testTwo(self):$/;"	m	class:TestStochasticGradients
+testUniform	testing/test_priors.py	/^    def testUniform(self):$/;"	m	class:PriorModeTests
+testUnivariateConditionals	testing/test_variational.py	/^    def testUnivariateConditionals(self):$/;"	m	class:VariationalUnivariateTest
+testValue	testing/test_param.py	/^    def testValue(self):$/;"	m	class:ParamTestsScalar
+test_1d	testing/test_gplvm.py	/^    def test_1d(self):$/;"	m	class:TestBayesianGPLVM
+test_1d	testing/test_kerns.py	/^    def test_1d(self):$/;"	m	class:TestArcCosine
+test_1d	testing/test_kerns.py	/^    def test_1d(self):$/;"	m	class:TestKernSymmetry
+test_1d	testing/test_kerns.py	/^    def test_1d(self):$/;"	m	class:TestPeriodic
+test_1d	testing/test_kerns.py	/^    def test_1d(self):$/;"	m	class:TestRbf
+test_2d	testing/test_gplvm.py	/^    def test_2d(self):$/;"	m	class:TestBayesianGPLVM
+test_2d	testing/test_kerns.py	/^    def test_2d(self):$/;"	m	class:TestPeriodic
+test_3d	testing/test_kerns.py	/^    def test_3d(self):$/;"	m	class:TestArcCosine
+test_5d	testing/test_kerns.py	/^    def test_5d(self):$/;"	m	class:TestKernSymmetry
+test_Kxz	testing/test_ekerns.py	/^    def test_Kxz(self):$/;"	m	class:TestKernExpDelta
+test_MLP	testing/test_kerns.py	/^    def test_MLP(self):$/;"	m	class:TestARDInit
+test_adam	testing/test_model.py	/^    def test_adam(self):$/;"	m	class:TestOptimize
+test_add	testing/test_autoflow.py	/^    def test_add(self):$/;"	m	class:TestAdd
+test_add	testing/test_autoflow.py	/^    def test_add(self):$/;"	m	class:TestDataHolder
+test_add_output_shape	testing/test_mean_functions.py	/^    def test_add_output_shape(self):$/;"	m	class:TestMeanFuncs
+test_all	testing/test_coregion.py	/^    def test_all(self):$/;"	m	class:TestEquivalence
+test_all	testing/test_method_equivalence.py	/^    def test_all(self):$/;"	m	class:TestEquivalence
+test_all	testing/test_methods.py	/^    def test_all(self):$/;"	m	class:TestMethods
+test_all	testing/test_predict.py	/^    def test_all(self):$/;"	m	class:TestGaussian
+test_append	testing/test_param.py	/^    def test_append(self):$/;"	m	class:TestParamList
+test_asym	testing/test_kerns.py	/^    def test_asym(self):$/;"	m	class:TestAdd
+test_asymm	testing/test_kerns.py	/^    def test_asymm(self):$/;"	m	class:TestSlice
+test_autoflow	testing/test_profiling.py	/^    def test_autoflow(self):$/;"	m	class:TestProfiling
+test_autoflow	testing/test_session.py	/^    def test_autoflow(self):$/;"	m	class:TestSessionConfiguration
+test_autoflow_results	testing/test_autoflow.py	/^    def test_autoflow_results(self):$/;"	m	class:TestAutoFlowSessionGraphArguments
+test_bad_parent	testing/test_param.py	/^    def test_bad_parent(self):$/;"	m	class:NamingTests
+test_basic_mean_function	testing/test_mean_functions.py	/^    def test_basic_mean_function(self):$/;"	m	class:TestModelsWithMeanFuncs
+test_basic_output_shape	testing/test_mean_functions.py	/^    def test_basic_output_shape(self):$/;"	m	class:TestMeanFuncs
+test_build_likelihood	testing/test_variational.py	/^    def test_build_likelihood(self):$/;"	m	class:VariationalUnivariateTest
+test_burn	testing/test_hmc.py	/^    def test_burn(self):$/;"	m	class:SampleGaussianTest
+test_combination_types	testing/test_mean_functions.py	/^    def test_combination_types(self):$/;"	m	class:TestMeanFuncs
+test_composition_output_shape	testing/test_mean_functions.py	/^    def test_composition_output_shape(self):$/;"	m	class:TestMeanFuncs
+test_config_not_found	testing/test_config.py	/^    def test_config_not_found(self):$/;"	m	class:TestConfigParsing
+test_connected	testing/test_param.py	/^    def test_connected(self):$/;"	m	class:TestParamList
+test_construction	testing/test_param.py	/^    def test_construction(self):$/;"	m	class:TestParamList
+test_cov	testing/test_predict.py	/^    def test_cov(self):$/;"	m	class:TestFullCov
+test_cross_quad	testing/test_ekerns.py	/^    def test_cross_quad(self):$/;"	m	class:TestAddCrossCalcs
+test_dense	testing/test_kldiv.py	/^    def test_dense(self):$/;"	m	class:EqualityTest
+test_dense	testing/test_kldiv.py	/^    def test_dense(self):$/;"	m	class:WhitenedTest
+test_dense_nonwhite	testing/test_kldiv.py	/^    def test_dense_nonwhite(self):$/;"	m	class:OneDTest
+test_dense_white	testing/test_kldiv.py	/^    def test_dense_white(self):$/;"	m	class:OneDTest
+test_density	testing/test_predict.py	/^    def test_density(self):$/;"	m	class:TestGaussian
+test_diag	testing/test_kerns.py	/^    def test_diag(self):$/;"	m	class:TestCoregion
+test_diag	testing/test_kldiv.py	/^    def test_diag(self):$/;"	m	class:EqualityTest
+test_diag	testing/test_kldiv.py	/^    def test_diag(self):$/;"	m	class:WhitenedTest
+test_diag_nonwhite	testing/test_kldiv.py	/^    def test_diag_nonwhite(self):$/;"	m	class:OneDTest
+test_diag_white	testing/test_kldiv.py	/^    def test_diag_white(self):$/;"	m	class:OneDTest
+test_duplicates_1	testing/test_kerns.py	/^    def test_duplicates_1(self):$/;"	m	class:TestKernNaming
+test_duplicates_1	testing/test_kerns.py	/^    def test_duplicates_1(self):$/;"	m	class:TestKernNamingProduct
+test_duplicates_2	testing/test_kerns.py	/^    def test_duplicates_2(self):$/;"	m	class:TestKernNaming
+test_duplicates_2	testing/test_kerns.py	/^    def test_duplicates_2(self):$/;"	m	class:TestKernNamingProduct
+test_eKdiag	testing/test_ekerns.py	/^    def test_eKdiag(self):$/;"	m	class:TestKernExpDelta
+test_eKdiag	testing/test_ekerns.py	/^    def test_eKdiag(self):$/;"	m	class:TestKernExpDiagXcov
+test_eKdiag	testing/test_ekerns.py	/^    def test_eKdiag(self):$/;"	m	class:TestKernExpQuadrature
+test_eKdiag	testing/test_ekerns.py	/^    def test_eKdiag(self):$/;"	m	class:TestKernProd
+test_eKxz	testing/test_ekerns.py	/^    def test_eKxz(self):$/;"	m	class:TestKernExpDiagXcov
+test_eKxz	testing/test_ekerns.py	/^    def test_eKxz(self):$/;"	m	class:TestKernExpQuadrature
+test_eKxz	testing/test_ekerns.py	/^    def test_eKxz(self):$/;"	m	class:TestKernProd
+test_eKzxKxz	testing/test_ekerns.py	/^    def test_eKzxKxz(self):$/;"	m	class:TestKernExpDelta
+test_eKzxKxz	testing/test_ekerns.py	/^    def test_eKzxKxz(self):$/;"	m	class:TestKernExpDiagXcov
+test_eKzxKxz	testing/test_ekerns.py	/^    def test_eKzxKxz(self):$/;"	m	class:TestKernExpQuadrature
+test_eKzxKxz	testing/test_ekerns.py	/^    def test_eKzxKxz(self):$/;"	m	class:TestKernProd
+test_eachtime	testing/test_profiling.py	/^    def test_eachtime(self):$/;"	m	class:TestProfiling
+test_exKxz	testing/test_ekerns.py	/^    def test_exKxz(self):$/;"	m	class:TestKernExpDelta
+test_exKxz	testing/test_ekerns.py	/^    def test_exKxz(self):$/;"	m	class:TestKernExpQuadrature
+test_exKxz_pairwise	testing/test_ekerns.py	/^    def test_exKxz_pairwise(self):$/;"	m	class:TestKernExpDelta
+test_exKxz_pairwise	testing/test_ekerns.py	/^    def test_exKxz_pairwise(self):$/;"	m	class:TestKernExpQuadrature
+test_feval_counter	testing/test_model.py	/^    def test_feval_counter(self):$/;"	m	class:TestOptimize
+test_few_inducing_points	testing/test_method_equivalence.py	/^    def test_few_inducing_points(self):$/;"	m	class:TestUpperBound
+test_fix	testing/test_model.py	/^    def test_fix(self):$/;"	m	class:TestNeedsRecompile
+test_forward_backward	testing/test_transforms.py	/^    def test_forward_backward(self):$/;"	m	class:TestDiagMatrixTransform
+test_forward_backward	testing/test_transforms.py	/^    def test_forward_backward(self):$/;"	m	class:TransformTests
+test_gpmc	testing/test_data_object.py	/^    def test_gpmc(self):$/;"	m	class:TestDataHolderModels
+test_gpmc	testing/test_model.py	/^    def test_gpmc(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+test_gpr	testing/test_data_object.py	/^    def test_gpr(self):$/;"	m	class:TestDataHolderModels
+test_gpr	testing/test_model.py	/^    def test_gpr(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+test_in_model	testing/test_param.py	/^    def test_in_model(self):$/;"	m	class:TestParamList
+test_inverse_operations	testing/test_mean_functions.py	/^    def test_inverse_operations(self):$/;"	m	class:TestModelCompositionOperations
+test_kern_name	testing/test_param.py	/^    def test_kern_name(self):$/;"	m	class:TestScopes
+test_kernelsActiveDims	testing/test_gplvm.py	/^    def test_kernelsActiveDims(self):$/;"	m	class:TestBayesianGPLVM
+test_kill	testing/test_autoflow.py	/^    def test_kill(self):$/;"	m	class:TestNoArgs
+test_lbfgsb	testing/test_model.py	/^    def test_lbfgsb(self):$/;"	m	class:TestOptimize
+test_len	testing/test_param.py	/^    def test_len(self):$/;"	m	class:TestParamList
+test_lik_and_prior	testing/test_model.py	/^    def test_lik_and_prior(self):$/;"	m	class:TestLikelihoodAutoflow
+test_likelihood_checks	testing/test_likelihoods.py	/^    def test_likelihood_checks(self):$/;"	m	class:TestLikelihoodChecks
+test_likelihood_name	testing/test_param.py	/^    def test_likelihood_name(self):$/;"	m	class:TestScopes
+test_likelihoods_and_gradients	testing/test_methods.py	/^    def test_likelihoods_and_gradients(self):$/;"	m	class:TestSparseMCMC
+test_logjac	testing/test_transforms.py	/^    def test_logjac(self):$/;"	m	class:TransformTests
+test_logp	testing/test_likelihoods.py	/^    def test_logp(self):$/;"	m	class:TestSwitchedLikelihood
+test_mean	testing/test_hmc.py	/^    def test_mean(self):$/;"	m	class:SampleModelTest
+test_mean	testing/test_likelihoods.py	/^    def test_mean(self):$/;"	m	class:TestPredictConditional
+test_mean_cov	testing/test_hmc.py	/^    def test_mean_cov(self):$/;"	m	class:SampleGaussianTest
+test_mult_output_shape	testing/test_mean_functions.py	/^    def test_mult_output_shape(self):$/;"	m	class:TestMeanFuncs
+test_multiple_AFs	testing/test_autoflow.py	/^    def test_multiple_AFs(self):$/;"	m	class:TestGPmodel
+test_name	testing/test_model.py	/^    def test_name(self):$/;"	m	class:TestName
+test_naming	testing/test_param.py	/^    def test_naming(self):$/;"	m	class:TestParamList
+test_nan_in_gradient	testing/test_kerns.py	/^    def test_nan_in_gradient(self):$/;"	m	class:TestArcCosine
+test_no_nesting_1	testing/test_kerns.py	/^    def test_no_nesting_1(self):$/;"	m	class:TestKernNaming
+test_no_nesting_1	testing/test_kerns.py	/^    def test_no_nesting_1(self):$/;"	m	class:TestKernNamingProduct
+test_no_nesting_2	testing/test_kerns.py	/^    def test_no_nesting_2(self):$/;"	m	class:TestKernNaming
+test_no_nesting_2	testing/test_kerns.py	/^    def test_no_nesting_2(self):$/;"	m	class:TestKernNamingProduct
+test_non_implemented_order	testing/test_kerns.py	/^    def test_non_implemented_order(self):$/;"	m	class:TestArcCosine
+test_nonwhite	testing/test_kldiv.py	/^    def test_nonwhite(self):$/;"	m	class:DiagsTest
+test_nonwhiten	testing/test_conditionals.py	/^    def test_nonwhiten(self):$/;"	m	class:DiagsTest
+test_notwhite	testing/test_methods.py	/^    def test_notwhite(self):$/;"	m	class:TestSVGP
+test_optimise	testing/test_gplvm.py	/^    def test_optimise(self):$/;"	m	class:TestGPLVM
+test_optimize_np	testing/test_model.py	/^    def test_optimize_np(self):$/;"	m	class:TestKeyboardCatching
+test_optimize_tf	testing/test_model.py	/^    def test_optimize_tf(self):$/;"	m	class:TestKeyboardCatching
+test_option_mutability	testing/test_session.py	/^    def test_option_mutability(self):$/;"	m	class:TestSessionConfiguration
+test_option_persistance	testing/test_session.py	/^    def test_option_persistance(self):$/;"	m	class:TestSessionConfiguration
+test_otherkernel	testing/test_gplvm.py	/^    def test_otherkernel(self):$/;"	m	class:TestGPLVM
+test_parser	testing/test_config.py	/^    def test_parser(self):$/;"	m	class:TestConfigParsing
+test_pass	testing/test_data_object.py	/^    def test_pass(self):$/;"	m	class:TestDataHolderSimple
+test_pickle	testing/test_pickle.py	/^    def test_pickle(self):$/;"	m	class:TestTransforms
+test_precedence	testing/test_mean_functions.py	/^    def test_precedence(self):$/;"	m	class:TestModelCompositionOperations
+test_pred_density	testing/test_likelihoods.py	/^    def test_pred_density(self):$/;"	m	class:TestQuadrature
+test_predict_density	testing/test_autoflow.py	/^    def test_predict_density(self):$/;"	m	class:TestGPmodel
+test_predict_density	testing/test_likelihoods.py	/^    def test_predict_density(self):$/;"	m	class:TestSwitchedLikelihood
+test_predict_density	testing/test_methods.py	/^    def test_predict_density(self):$/;"	m	class:TestMethods
+test_predict_f	testing/test_autoflow.py	/^    def test_predict_f(self):$/;"	m	class:TestGPmodel
+test_predict_f	testing/test_methods.py	/^    def test_predict_f(self):$/;"	m	class:TestMethods
+test_predict_y	testing/test_autoflow.py	/^    def test_predict_y(self):$/;"	m	class:TestGPmodel
+test_predict_y	testing/test_methods.py	/^    def test_predict_y(self):$/;"	m	class:TestMethods
+test_prior_KL	testing/test_variational.py	/^    def test_prior_KL(self):$/;"	m	class:VariationalUnivariateTest
+test_prior_KL_fullQ	testing/test_variational.py	/^    def test_prior_KL_fullQ(self):$/;"	m	class:VariationalMultivariateTest
+test_prod	testing/test_kerns.py	/^    def test_prod(self):$/;"	m	class:TestProd
+test_profile	testing/test_profiling.py	/^    def test_profile(self):$/;"	m	class:TestProfiling
+test_q_sqrt_fixing	testing/test_methods.py	/^    def test_q_sqrt_fixing(self):$/;"	m	class:TestSVGP
+test_quad_active_dims	testing/test_ekerns.py	/^    def test_quad_active_dims(self):$/;"	m	class:TestExpxKxzActiveDims
+test_quad_active_dims	testing/test_ekerns.py	/^    def test_quad_active_dims(self):$/;"	m	class:TestKernExpActiveDims
+test_quad_active_dims_pairwise	testing/test_ekerns.py	/^    def test_quad_active_dims_pairwise(self):$/;"	m	class:TestExpxKxzActiveDims
+test_raise	testing/test_data_object.py	/^    def test_raise(self):$/;"	m	class:TestDataHolderSimple
+test_recompile	testing/test_data_object.py	/^    def test_recompile(self):$/;"	m	class:TestDataHolderSimple
+test_recompile	testing/test_method_equivalence.py	/^    def test_recompile(self):$/;"	m	class:VGPTest
+test_recompile	testing/test_predict.py	/^    def test_recompile(self):$/;"	m	class:TestGaussian
+test_refrence_implementation_consistency	testing/test_variational.py	/^    def test_refrence_implementation_consistency(self):$/;"	m	class:VariationalMultivariateTest
+test_replace_param	testing/test_model.py	/^    def test_replace_param(self):$/;"	m	class:TestNeedsRecompile
+test_replacement	testing/test_model.py	/^    def test_replacement(self):$/;"	m	class:TestNeedsRecompile
+test_return	testing/test_autoflow.py	/^    def test_return(self):$/;"	m	class:TestNoArgs
+test_return_logprobs	testing/test_hmc.py	/^    def test_return_logprobs(self):$/;"	m	class:SampleGaussianTest
+test_return_logprobs	testing/test_hmc.py	/^    def test_return_logprobs(self):$/;"	m	class:SampleModelTest
+test_rng	testing/test_hmc.py	/^    def test_rng(self):$/;"	m	class:SampleGaussianTest
+test_same_shape	testing/test_data_object.py	/^    def test_same_shape(self):$/;"	m	class:TestDataHolderIntegers
+test_same_shape	testing/test_data_object.py	/^    def test_same_shape(self):$/;"	m	class:TestDataHolderSimple
+test_samples	testing/test_predict.py	/^    def test_samples(self):$/;"	m	class:TestFullCov
+test_samples_df	testing/test_hmc.py	/^    def test_samples_df(self):$/;"	m	class:SamplesDictTest
+test_scalar	testing/test_kerns.py	/^    def test_scalar(self):$/;"	m	class:TestARDInit
+test_session_default_graph	testing/test_session.py	/^    def test_session_default_graph(self):$/;"	m	class:TestSessionConfiguration
+test_session_graph_properties	testing/test_model.py	/^    def test_session_graph_properties(self):$/;"	m	class:TestModelSessionGraphArguments
+test_set_prior	testing/test_model.py	/^    def test_set_prior(self):$/;"	m	class:TestNeedsRecompile
+test_set_transform	testing/test_model.py	/^    def test_set_transform(self):$/;"	m	class:TestNeedsRecompile
+test_setitem	testing/test_param.py	/^    def test_setitem(self):$/;"	m	class:TestParamList
+test_sgpmc	testing/test_data_object.py	/^    def test_sgpmc(self):$/;"	m	class:TestDataHolderModels
+test_sgpmc	testing/test_model.py	/^    def test_sgpmc(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+test_sgpr	testing/test_data_object.py	/^    def test_sgpr(self):$/;"	m	class:TestDataHolderModels
+test_sgpr	testing/test_model.py	/^    def test_sgpr(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+test_shape	testing/test_kerns.py	/^    def test_shape(self):$/;"	m	class:TestCoregion
+test_share_args	testing/test_autoflow.py	/^    def test_share_args(self):$/;"	m	class:TestShareArgs
+test_simple	testing/test_kerns.py	/^    def test_simple(self):$/;"	m	class:TestKernNaming
+test_simple	testing/test_kerns.py	/^    def test_simple(self):$/;"	m	class:TestKernNamingProduct
+test_slice	testing/test_kerns.py	/^    def test_slice(self):$/;"	m	class:TestCoregion
+test_storage_properties	testing/test_autoflow.py	/^    def test_storage_properties(self):$/;"	m	class:TestAutoFlowSessionGraphArguments
+test_suite	setup.py	/^      test_suite='testing',$/;"	v
+test_svgp	testing/test_data_object.py	/^    def test_svgp(self):$/;"	m	class:TestDataHolderModels
+test_svgp	testing/test_model.py	/^    def test_svgp(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+test_switch_quadrature	testing/test_ekerns.py	/^    def test_switch_quadrature(self):$/;"	m	class:TestKernExpQuadrature
+test_sym	testing/test_kerns.py	/^    def test_sym(self):$/;"	m	class:TestAdd
+test_symm	testing/test_kerns.py	/^    def test_symm(self):$/;"	m	class:TestSlice
+test_tf_np_forward	testing/test_transforms.py	/^    def test_tf_np_forward(self):$/;"	m	class:TestDiagMatrixTransform
+test_tf_np_forward	testing/test_transforms.py	/^    def test_tf_np_forward(self):$/;"	m	class:TransformTests
+test_tf_optimize	testing/test_methods.py	/^    def test_tf_optimize(self):$/;"	m	class:TestMethods
+test_types	testing/test_data_object.py	/^    def test_types(self):$/;"	m	class:TestDataHolderIntegers
+test_types	testing/test_data_object.py	/^    def test_types(self):$/;"	m	class:TestDataHolderSimple
+test_unnamed	testing/test_param.py	/^    def test_unnamed(self):$/;"	m	class:NamingTests
+test_var_exp	testing/test_likelihoods.py	/^    def test_var_exp(self):$/;"	m	class:TestPredictConditional
+test_var_exp	testing/test_likelihoods.py	/^    def test_var_exp(self):$/;"	m	class:TestQuadrature
+test_variance	testing/test_likelihoods.py	/^    def test_variance(self):$/;"	m	class:TestPredictConditional
+test_variational_expectations	testing/test_likelihoods.py	/^    def test_variational_expectations(self):$/;"	m	class:TestSwitchedLikelihood
+test_vgp	testing/test_data_object.py	/^    def test_vgp(self):$/;"	m	class:TestDataHolderModels
+test_vgp	testing/test_model.py	/^    def test_vgp(self):$/;"	m	class:TestNoRecompileThroughNewModelInstance
+test_vgp_vs_opper_archambeau	testing/test_method_equivalence.py	/^    def test_vgp_vs_opper_archambeau(self):$/;"	m	class:VGPTest
+test_vgp_vs_svgp	testing/test_method_equivalence.py	/^    def test_vgp_vs_svgp(self):$/;"	m	class:VGPTest
+test_weight_initializations	testing/test_kerns.py	/^    def test_weight_initializations(self):$/;"	m	class:TestArcCosine
+test_white	testing/test_kldiv.py	/^    def test_white(self):$/;"	m	class:DiagsTest
+test_white	testing/test_methods.py	/^    def test_white(self):$/;"	m	class:TestSVGP
+test_whiten	testing/test_conditionals.py	/^    def test_whiten(self):$/;"	m	class:DiagsTest
+test_whiten	testing/test_conditionals.py	/^    def test_whiten(self):$/;"	m	class:WhitenTest
+test_whiten	testing/test_conditionals.py	/^    def test_whiten(self):$/;"	m	class:WhitenTestGaussian
+test_with_fixed	testing/test_hmc.py	/^    def test_with_fixed(self):$/;"	m	class:SamplesDictTest
+test_with_parameterized	testing/test_param.py	/^    def test_with_parameterized(self):$/;"	m	class:TestParamList
+test_wrong_arguments	testing/test_autoflow.py	/^    def test_wrong_arguments(self):$/;"	m	class:TestAutoFlowSessionGraphArguments
+texinfo_documents	doc/source/conf.py	/^texinfo_documents = [$/;"	v
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:DiagMatrix
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:Exp
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:Identity
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:Log1pe
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:Logistic
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:LowerTriangular
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:Rescale
+tf_forward	gpflow/transforms.py	/^    def tf_forward(self, x):$/;"	m	class:Transform
+tf_forward	testing/test_ekerns.py	/^    def tf_forward(self, x):$/;"	m	class:TriDiagonalBlockRep
+tf_init_feed_dict	gpflow/param.py	/^            def tf_init_feed_dict(instance_, storage_, session_):$/;"	f	function:AutoFlow.__call__.runnable
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:DiagMatrix
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:Exp
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:Identity
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:Log1pe
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:Logistic
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:LowerTriangular
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:Rescale
+tf_log_jacobian	gpflow/transforms.py	/^    def tf_log_jacobian(self, x):$/;"	m	class:Transform
+tf_mode	gpflow/param.py	/^    def tf_mode(self):$/;"	m	class:Parameterized
+todo_include_todos	doc/source/conf.py	/^todo_include_todos = True$/;"	v
+tol	doc/source/notebooks/FITCvsVFE.py	/^tol=1e-11$/;"	v
+trainSparseModel	doc/source/notebooks/FITCvsVFE.py	/^def trainSparseModel(xtrain,ytrain,exact_model,isFITC, xtest, ytest):$/;"	f
+tri_to_vec	gpflow/tf_hacks.py	/^def tri_to_vec(N):  # pragma: no cover$/;"	f
+update_feed_dict	gpflow/minibatch.py	/^    def update_feed_dict(self, key_dict, feed_dict):$/;"	m	class:MinibatchData
+update_feed_dict	gpflow/param.py	/^    def update_feed_dict(self, key_dict, feed_dict):$/;"	m	class:DataHolder
+update_feed_dict	gpflow/param.py	/^    def update_feed_dict(self, key_dict, feed_dict):$/;"	m	class:Param
+update_feed_dict	gpflow/param.py	/^    def update_feed_dict(self, key_dict, feed_dict):$/;"	m	class:Parameterized
+url	setup.py	/^      url="http:\/\/github.com\/gpflow\/gpflow",$/;"	v
+value	gpflow/param.py	/^    def value(self):$/;"	m	class:DataHolder
+value	gpflow/param.py	/^    def value(self):$/;"	m	class:Param
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:Exponential
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:Gamma
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:Gaussian
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:Likelihood
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:MultiClass
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:Poisson
+variational_expectations	gpflow/likelihoods.py	/^    def variational_expectations(self, Fmu, Fvar, Y):$/;"	m	class:SwitchedLikelihood
+vec_to_tri	gpflow/tf_hacks.py	/^def vec_to_tri(N):  # pragma: no cover$/;"	f
+vec_to_tri	gpflow/tf_wraps.py	/^def vec_to_tri( vectors, N ):$/;"	f
+vec_to_tri_vector	gpflow/tf_wraps.py	/^	def vec_to_tri_vector(vector):$/;"	f	function:vec_to_tri
+version	doc/source/conf.py	/^version = u'0.3.8'$/;"	v
+version	setup.py	/^      version=verstr,$/;"	v
+verstr	setup.py	/^    verstr = mo.group(1)$/;"	v
+verstrline	setup.py	/^verstrline = open(VERSIONFILE, "rt").read()$/;"	v
+vgp_notes_test	testing/test_notebooks.py	/^    def vgp_notes_test(self):$/;"	m	class:TestNotebooks
+xx	doc/source/notebooks/compare_variational.py	/^xx = np.linspace(-1, 11, 100)[:,None]$/;"	v
+y	testing/test_likelihoods.py	/^            y = tf.placeholder(float_type)$/;"	v	class:TestRobustMaxMulticlass.testPredictDensity.MockRobustMax
