@@ -51,12 +51,12 @@ def main():
 
     #NOTE if feature representation exists, then input_dim of mean function and kernels should be hidden_dim
     kern_MF = {p: gpflow.kernels.RBF(hidden_dim) for p in X.keys()}
-    mean_function_MF = gpflow.mean_functions.TwoLayerSigmoidMLP(input_dim=hidden_dim, hidden_dim=hidden_dim, 
-                                                                output_dim=1)
+    mean_function_MF = gpflow.mean_functions.RNN_OneLayer_DKGP(input_dim=hidden_dim, hidden_dim=hidden_dim, 
+                                                               output_dim=1)
     feature_representation_MF = gpflow.feature_representations.RNN(input_dim=num_features, hidden_dim=hidden_dim)
     kern_GPs = {p: gpflow.kernels.RBF(hidden_dim) for p in X.keys()}
-    mean_function_GPs = gpflow.mean_functions.TwoLayerSigmoidMLP(input_dim=hidden_dim, hidden_dim=hidden_dim, 
-                                                                 output_dim=1)
+    mean_function_GPs = gpflow.mean_functions.RNN_OneLayer_DKGP(input_dim=hidden_dim, hidden_dim=hidden_dim, 
+                                                                output_dim=1)
     feature_representation_GPs = gpflow.feature_representations.RNN(input_dim=num_features, hidden_dim=hidden_dim)
     model_MF = gpflow.mecgp.MECGP(X, Y, kern_MF, likelihood, mean_function=mean_function_MF,
                                   feature_representation=feature_representation_MF)
