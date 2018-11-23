@@ -32,7 +32,7 @@ Use your own medical data.
 + GPflow
 
 ## License
-[Apache License 2.0](https://github.com/OpenXAIProject/Mixed-Effect-Composite-RNN-Gaussian-Process/LICENSE "Apache")
+[Apache License 2.0](https://github.com/OpenXAIProject/Mixed-Effect-Composite-RNN-Gaussian-Process/blob/master/LICENSE "Apache")
 
 ## Contacts
 If you have any question, please contact Ingyo Chung(jik0730@gmail.com).
