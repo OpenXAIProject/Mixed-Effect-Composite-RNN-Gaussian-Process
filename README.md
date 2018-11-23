@@ -3,11 +3,6 @@ Mixed Effect Composite RNN-Gaussian Process
 
 Mixed Effect Composite RNN-Gaussian Process: Personalized and Reliable Predictive Models for Healthcare
 
-
-### **How to use**
-With your own medical data,
-> python run_mecgp.py 'disease_name'
-
 ## Reference Code 
 The code depends on the Python package named [GPflow](https://github.com/GPflow/GPflow) which implements Gaussian Process models based on tensorflow.
 
