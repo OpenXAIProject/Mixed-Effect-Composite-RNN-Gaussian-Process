@@ -12,7 +12,7 @@ The code depends on the Python package named [GPflow](https://github.com/GPflow/
 ## Result  
 We conducted experiments on diverse set of disease risk prediction tasks based on medical check-up features. Results shown below show that our model is superior to other baseline models.
 <p align="center"> 
-<img src="https://github.com/OpenXAIProject/Mixed-Effect-Composite-RNN-Gaussian-Process/result.png"  width="800">
+<img src="https://github.com/OpenXAIProject/Mixed-Effect-Composite-RNN-Gaussian-Process/blob/master/result.png"  width="800">
 </p>
 
 ## Dataset 
